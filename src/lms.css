@@ -16,17 +16,39 @@ element.style {
 		background = #434653;
 	}
 	ul.plannerItemsList li p {
-		color: #eae8e8
+		color: #ffffff
 	}
 	.lc_navigation {
 		background = #434653;
 	}
-	.lc_pathLi {       
-		background: #9492a0 !important;
+	.lc_navBar {
+		background: none repeat scroll 0 0 #0000 !important;
+	}
+	.lc_navBar .lc_pathLi {       
+		background: #4e515c!important;
+	}
+	.lc_navDiv {       
+		background: none repeat scroll 0 0 #0000 !important;
 	}
 	#selectedNavTitle {
 		color: #ffffff !important;
 	}
 	.classScheduleContainer .pagination span.current {
 		background: #218ae7!important;
+	}
+	ul.plannerItemsList li h3 {
+		color: #ffffff
+	}
+	.accordion>h3, .accordion .lc_accordionMainHdr>h3 {
+		background: #434653!important;
+	}
+	.header .dropdown dt a, .header .dropdown dt a:hover, .header .dropdown dt a:focus {
+		background: #3d404c !important;
+	}
+	.header .dropdown dt a:hover, .header .dropdown dt a:focus, .header .dropdown dt a, .header .dropdown2 dt a:hover, .header .dropdown2 dt a:focus, .header .dropdown2 dt a, .header .dropdown dt em, .header .dropdown2 dt em {
+		color: #fff !important;
+	}
+	.role_arrow {
+		background-color: #3d404c!important;
+		border: none;
 	}
