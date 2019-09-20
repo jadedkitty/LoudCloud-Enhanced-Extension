@@ -17,6 +17,7 @@ window.onload = function() {  // runs functions on page load for detecting widge
 }
 
 function main() {
+  document.body.style.background = BackgroundColor;
   document.getElementById("headerId").style.background = "#434653";
   document.getElementsByClassName('lc_navIcons dashboardIco')[0].setAttribute("style", 'background: url("https://i.imgur.com/RqBuY1S.png") no-repeat scroll 0 0 rgba(0,0,0,0)');
   document.getElementsByTagName('img')[0].setAttribute("src", "https://i.imgur.com/n50MHX2.png");
