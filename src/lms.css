@@ -1,0 +1,32 @@
+element.style {
+	margin:0;font:normal 12px "Trebuchet MS";color:#121212;background:#34363e
+}
+
+	#headerId {
+		background = #434653;
+	}
+	.lc_navIcons dashboardIco {
+		background: url("https://i.imgur.com/RqBuY1S.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+	}
+
+	.headerMast {
+		background = #434653;
+	}
+	.lc_selectLi .lc_groupMenu lc_navHasChild {
+		background = #434653;
+	}
+	ul.plannerItemsList li p {
+		color: #eae8e8
+	}
+	.lc_navigation {
+		background = #434653;
+	}
+	.lc_pathLi {       
+		background: #9492a0 !important;
+	}
+	#selectedNavTitle {
+		color: #ffffff !important;
+	}
+	.classScheduleContainer .pagination span.current {
+		background: #218ae7!important;
+	}

@@ -1,0 +1,31 @@
+{
+  "name": "LoudCloud Enhanced",
+  
+  "version": "1.0",
+  
+  "description": "Extension for BNED LoudCloud version 7.1 which adds useful features as well as dark mode",
+  
+  "manifest_version": 2,
+  
+  "incognito": "not_allowed",
+  
+  "permissions": [
+     "activeTab"
+   ],
+   
+   "content_scripts":[{
+    "matches": ["https://lms-trad.gcu.edu/*"],
+    "css": ["lms.css"],
+    "js": ["lms_colors.js"]
+	}],
+	
+   "icons": {
+		"128": "icon.png"
+    },
+	
+   "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+   }
+
+}
