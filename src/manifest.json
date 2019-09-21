@@ -10,26 +10,35 @@
   "incognito": "not_allowed",
   
   "permissions": [
-     "activeTab"
+     "activeTab",
+	 "clipboardWrite"
    ],
    
    "content_scripts":[{
-    "matches": ["https://lms-trad.gcu.edu/*"],
-    "css": ["lms.css"],
+    "matches": ["https://lms-trad.gcu.edu/*",
+	"https://lms-testdrive.gcu.edu/*"
+	],
     "js": ["lms_colors.js"]
 	}],
 	
    "icons": {
 		"128": "icon.png"
     },
-	
+	"browser_action": {
+      "default_icon": "icon.png"
+	},
    "options_ui": {
     "page": "options.html",
     "open_in_tab": false
    },
    "web_accessible_resources": [
      "lms.css",
-	 "*.png"
-   ]
-
+	 "*.png",
+	 "chrome://extensions/?options=dgjckphnmdgjfbdipmoagfbbkgffhodp"
+   ],
+"browser_action": {
+          "default_title": "LoudCloud Enhanced",
+          "default_popup": "popup.html"
+        }
+		
 }
