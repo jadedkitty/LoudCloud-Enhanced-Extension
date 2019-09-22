@@ -1,4 +1,4 @@
-![logo](https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/src/logoEnhanced.png)
+![logo](https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/logo.png)
 
 # LoudCloud Enhanced Extension for Google Chrome
 # This is W.I.P, many things will be broken. Use at your own risk
