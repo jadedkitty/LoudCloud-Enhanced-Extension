@@ -1,9 +1,13 @@
+// inject CSS stylesheet
 var style = document.createElement('link');
 style.rel = 'stylesheet';
 style.type = 'text/css';
 style.href = chrome.extension.getURL('lms.css');
 (document.head||document.documentElement).appendChild(style);
 
+var logoURL = chrome.extension.getURL("logoBlank.png");
+
+//replaces communities widget contents with chat iframe
 function addChat() {
 	var chat = document.createElement('iframe');
 	chat.src = 'https://deadsimplechat.com/4oAlSsyKG'
@@ -13,53 +17,64 @@ function addChat() {
 	document.getElementById('my-groupsListWrap').appendChild(chat);
 	//console.log('chat.contentWindow =', chat.contentWindow);
 }
+
+function addFooter() {
+	var footer = document.createElement('span');
+	//footer.value = 'LoudCloud Enhanced [Ver: 1.1]';
+	footer.className = 'buildVersion';
+	footer.id = 'enhancedFooter';
+	document.getElementsByClassName('footerMast')[0].appendChild(footer);
+	document.getElementById('enhancedFooter').textContent = 'LoudCloud Enhanced by jadedkitty  [Ver: 1.1]';
+	//console.log('chat.contentWindow =', chat.contentWindow);
+}
 function removeElement(elementId) {
-    // Removes an element from the document
+    // Removes an element from the DOM
     var element = document.getElementById(elementId);
+	  if (!element) {
+    //node does not exist yet
+    //wait 1ms and try again
+    //console.log(widgetName +': Not loaded');
+    window.setTimeout(function() {
+		removeElement(elementId);
+	}, 1);
+    //console.log(widgetName +': Trying again...');
+    return;
+  }
     element.parentNode.removeChild(element);
 	
 }
+//changes text using element ID and tag
 function changeText(elementId, tag, text) {
 	var element = document.getElementById(elementId);
 	document.parentNode.getElementsByTagName(tag)[0].textContent = text;
 }
-var BackgroundColor = "#34363e";
-var logoURL = chrome.extension.getURL("logoBlank.png");
+
+//sets class of widgets on dashboard to dashboard-box-black styling
 function setBlack(widget) {
   document.getElementById(widget).className = "tac-dashboard-box dashboard-box-black";
 }
 
-
 window.onload = function() {  // runs functions on page load for detecting widgets and setting dark colors
-  main();
+  //setting logo
+  removeElement('footerEmailBx');
+  removeElement('communitiesMenuOption');
+  removeElement('lnkMyLink');
+  addFooter();
+  document.getElementsByTagName('img')[0].src = logoURL;
+  document.getElementsByTagName('img')[0].id = ('logoImg');
   // detecting widgets
   detectAndSetWidget('wrapper_events_lecturers');
   detectAndSetWidget('creditClassWrapper');
   detectAndSetWidget('studentSubmissionWrapper');
   detectAndSetWidget('studentGradebookWrapper');
   detectAndSetWidget('wrapper_campus_communities');
-  detectAndSetWidget('wrapper_comp_based_courses2');  
-  navMenu();
-  navMenuText();
-  
-  //plannerText();
+  detectAndSetWidget('wrapper_comp_based_courses2'); 
+
 }
 
-function main() {
-  document.body.style.background = BackgroundColor;
-  document.getElementById("headerId").style.background = "#434653";
-  document.getElementsByTagName('img')[0].src = logoURL;
-  document.getElementsByTagName('img')[0].id = ('logoImg');
-  // https://i.imgur.com/n50MHX2.png
-  document.getElementsByClassName('headerMast')[0].style.background = "#434653";
-  document.getElementsByClassName('selected_role')[0].style.color = "#ffffff";
-  document.getElementsByClassName('name')[0].style.color = "#ffffff";
-  document.getElementsByClassName('lc_selectLi', 'lc_groupMenu lc_navHasChild')[0].style.background = "#434653";
-  document.getElementsByClassName('lc_navigation')[0].style.background = "#434653";
-  //document.getElementsByClassName('lc_pathLi')[0].setAttribute("style", "background: #9492a0 !important");
-  document.getElementById("selectedNavTitle").setAttribute("style", "color: #ffffff !important");
-}
-
+//detects when widgets load and immediately runs setBlack
+// runs add chat when communities load
+// removes useless progress widget upon load
 function detectAndSetWidget(widgetName) {
   var dashboardWidgets = document.getElementById(widgetName);
   if (!dashboardWidgets) {
@@ -86,6 +101,9 @@ for (var i = 0, len = textnodes.length; i<len; i++){
     textnodes[i].nodeValue = _nv.replace('Communities','Chat');
 }
   }
+  if (widgetName == 'wrapper_comp_based_courses2') {
+	  removeElement('18');
+  }
 }
 function nativeSelector() {
     var elements = document.querySelectorAll("body, body *");
@@ -98,31 +116,4 @@ function nativeSelector() {
         }
     }
     return results;
-}
-
-function navMenu() {
-  var x = document.getElementsByClassName("lc_selectLi");
-  var i;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.background = "#434653";
-  }
-  document.getElementById("messagesMenuOption").style.background = "#434653";
-  navMenuText();
-}
-function navMenuText() {
-  var x = document.getElementsByClassName("lc_navBarTitle");
-    if (!x) {
-    //node does not exist yet
-    //wait 1ms and try again
-    console.log('NavText: Not loaded');
-    window.setTimeout(function() {
-		navMenuText();
-	}, 1);
-    console.log(widgetName +': Trying again...');
-    return;
-  }
-  var i;
-  for (i = 0; i < x.length; i++) {
-    x[i].setAttribute("style", 'color: #ffffff!important');
-  }
 }
