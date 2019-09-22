@@ -1,11 +1,13 @@
 ![logo](https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/logo.png)
 
 # LoudCloud Enhanced Extension for Google Chrome
-# This is W.I.P, many things will be broken. Use at your own risk
- Extension for BNED LoudCloud version 7.1 which adds useful features as well as dark mode.
- Uses built in functions from LoudCloud as much as possible to maintain default functionality.
+This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode feature as well as user friendly addtions such as an integrated chat feature to chat with other online users of the extension.
 
-# To-Do List:
+##Disclaimer
+It is recommended users of this extension are cautious while utilizing the extension, as the extension is still currently in alpha development. Users that decide to utilize the extension are expected to use at their own risk. It is also expected that users of the extension understand jadedkitty is not responsible for any issues resulting from the extension.
+
+
+## Future Features:
  - Settings
  - Multiple Themes
  - Widget Lock
