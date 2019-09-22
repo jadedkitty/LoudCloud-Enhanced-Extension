@@ -12,3 +12,6 @@
  - Notes Widget
  - Mess with RSS planner
  - Path navigation bug fix
+
+# Chrome Webstore:
+[Click to go to Chrome Webstore page](https://chrome.google.com/webstore/detail/loudcloud-enhanced/agmdpbckjjdnghbldagoiaaokcefkbmb)
