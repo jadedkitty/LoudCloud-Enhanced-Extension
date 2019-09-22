@@ -15,5 +15,5 @@ It is recommended users of this extension are cautious while utilizing the exten
  - Mess with RSS planner
  - Path navigation bug fix
 
-# Chrome Webstore:
+## Chrome Webstore:
 [Click to go to Chrome Webstore page](https://chrome.google.com/webstore/detail/loudcloud-enhanced/agmdpbckjjdnghbldagoiaaokcefkbmb)
