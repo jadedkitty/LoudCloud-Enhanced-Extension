@@ -14,36 +14,27 @@
 		background: url("https://i.imgur.com/RqBuY1S.png") no-repeat scroll 0 0 rgba(0,0,0,0);
 	}
 
-	.headerMast {
-		background = #434653;
-	}
-	.lc_selectLi .lc_groupMenu lc_navHasChild {
-		background = #434653;
+	.lc_header, .lc_navigation, .lc_navigation, .lc_selectLi, .lc_groupMenu .lc_navHasChild, .lc_selectLi, .headerMast, #headerId, #messagesMenuOption, .headerMast, .lc_selectLi .lc_groupMenu lc_navHasChild, .lc_navigation, .accordion>h3, .accordion .lc_accordionMainHdr>h3  {
+		background: #434653!important;
 	}
 
-	.lc_navigation {
-		background = #434653;
-	}
-	.lc_navBar {
+	.lc_navBar, .lc_navDiv {
 		background: none repeat scroll 0 0 #0000 !important;
 	}
 	.lc_navBar .lc_pathLi {       
 		background: #4e515c!important;
 	}
-	.lc_navDiv {       
-		background: none repeat scroll 0 0 #0000 !important;
-	}
+
 	.classScheduleContainer .pagination span.current, .classScheduleContainer .caltodayBlock.lc_todayDisabled {
 		background: #23252b!important;
 	}
-	.accordion>h3, .accordion .lc_accordionMainHdr>h3 {
-		background: #434653!important;
-	}
-	.header .dropdown dt a, .header .dropdown dt a:hover, .header .dropdown dt a:focus {
+
+	.header .dropdown dt a, .header .dropdown dt a:hover, .header .dropdown dt a:focus, .role_arrow {
 		background: #3d404c !important;
+		background-color: #3d404c!important;
 	}
 	.role_arrow {
-		background-color: #3d404c!important;
+		
 		border: none;
 	}
 	#logoImg {
@@ -74,30 +65,7 @@
 	#roles dd span.role_arrow:hover,#roles dd span.role_arrow.active {
     		background: url("../../images/1568045196802/icons_flat.png") no-repeat scroll -7px -314px #fcfdfc;
 	}
-	#messagesMenuOption {
-		background: #434653;
-	}
-	.lc_selectLi {
-		background: #434653;
-	}
-	#headerId {
-		background: #434653;
-	}
-	.headerMast {
-		background: #434653;
-	}
-	.lc_selectLi, .lc_groupMenu .lc_navHasChild {
-		background: #434653;
-	}
-	.lc_navigation {
-		background: #434653;
-	}
-	#selectedNavTitle {
-		color: #ffffff !important;
-	}
-	.lc_header {
-		background: #434653;
-	}
+
 	.lc_loginContainer {
 		background: #1e2025!important;
 		box-shadow: 0 1px 9px rgba(0, 0, 0, 0.34);
@@ -174,7 +142,7 @@
 	.smalTabs h2 {
 		    border-bottom: 2px solid #393c45;
 	}
-	.header .dropdown dd ul li a.subLinkDDTop:hover, .header .dropdown2 dd ul li a.subLinkDDTop:hover, .header .dropdown dd ul li strong.subLinkDDTop, .header .dropdown2 dd ul li strong.subLinkDDTop, .dashboard-box-black .red-circle .circular-loader-inner, .classScheduleContainer .paginationWrap .weekCounter, .calendarTitleNew, .sectionHeader h2, .selected_role, .lc_navBarTitle, .header .dropdown dt a:hover, .header .dropdown dt a:focus, .header .dropdown dt a, .header .dropdown2 dt a:hover, .header .dropdown2 dt a:focus, .header .dropdown2 dt a, .header .dropdown dt em, .header .dropdown2 dt em, ul.plannerItemsList li h3, ul.plannerItemsList li p, .calSmlBox, .captionsubhead, .classScheduleContainer .ui-widget-header, .lc_colGrey.showToolTip .lc_contTitleLbl, .lc_colGrey.showToolTip .lc_classCode, .classScheduleContainer .pagination span {
+	.header .dropdown dd ul li a.subLinkDDTop:hover, .header .dropdown2 dd ul li a.subLinkDDTop:hover, .header .dropdown dd ul li strong.subLinkDDTop, .header .dropdown2 dd ul li strong.subLinkDDTop, .dashboard-box-black .red-circle .circular-loader-inner, .classScheduleContainer .paginationWrap .weekCounter, .calendarTitleNew, .sectionHeader h2, .selected_role, .lc_navBarTitle, .header .dropdown dt a:hover, .header .dropdown dt a:focus, .header .dropdown dt a, .header .dropdown2 dt a:hover, .header .dropdown2 dt a:focus, .header .dropdown2 dt a, .header .dropdown dt em, .header .dropdown2 dt em, ul.plannerItemsList li h3, ul.plannerItemsList li p, .calSmlBox, .captionsubhead, .classScheduleContainer .ui-widget-header, .lc_colGrey.showToolTip .lc_contTitleLbl, .lc_colGrey.showToolTip .lc_classCode, .classScheduleContainer .pagination span, #selectedNavTitle {
 		color: #fff !important;
 	}
 	.ui-widget-header {
