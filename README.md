@@ -12,7 +12,10 @@ This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode f
  - Path navigation bug fix
 
 ## Disclaimer
-It is recommended users of this extension are cautious while utilizing the extension, as the extension is still currently in alpha development. Users that decide to utilize the extension are expected to use at their own risk. It is also expected that users of the extension understand jadedkitty is not responsible for any issues resulting from the extension.
+Users who utilize this extension accept that it is done so at their own risk, caution is reccommended.  
+We (the developers of the extension) are not responsible for errors in assignments, maulfunctioning quizzes, thermonuclear war, or you getting dropped from your class because your class wall post didn't go through.  
+Please do some research or examine the code if you have any concerns about features included in the extension before installing it!  
+YOU are choosing to use this extension, and if you point the finger at us for messing up your class, we will laugh at you. 
 
 # Chrome Webstore:
 [Click to go to Chrome Webstore page](https://chrome.google.com/webstore/detail/loudcloud-enhanced/agmdpbckjjdnghbldagoiaaokcefkbmb)
