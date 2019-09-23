@@ -274,7 +274,8 @@ ul.plannerItemsList li p,
 
 #enhancedFooter {
   float: center;
-  color: #d50000;
+  color: #c2c2c2;
+  text-shadow: 1px 1px #d50000;
 }
 
 #clock,
