@@ -1,0 +1,11 @@
+Dark Pallette Hex Code List:
+
+Page Background: #34363e
+Header: #434653
+NavBar: #4e515c
+Class Schedule: #23252b
+Clickable Text: #e77121
+Login Box: #1e2025
+Path List: #1d1e23
+Path Selected: #50535e
+Path Dropdown: #2d2f35
