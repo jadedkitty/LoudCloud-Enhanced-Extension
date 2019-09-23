@@ -1,213 +1,323 @@
+body {
+  background: #34363e !important;
+  color: #cacaca;
+}
 
-	body {
-		background: #34363e !important;
-		color: #cacaca;
-	}
-	element.style {
-		margin:0;font:normal 12px "Trebuchet MS";color:#121212;background:#34363e
-	}
+element.style {
+  margin: 0;
+  font: normal 12px "Trebuchet MS";
+  color: #121212;
+  background: #34363e
+}
 
-	#headerId {
-		background = #434653;
-	}
-	.lc_navIcons dashboardIco {
-		background: url("https://i.imgur.com/RqBuY1S.png") no-repeat scroll 0 0 rgba(0,0,0,0);
-	}
+#headerId {
+  background=#434653;
+}
 
-	.lc_header, .lc_navigation, .lc_navigation, .lc_selectLi, .lc_groupMenu .lc_navHasChild, .lc_selectLi, .headerMast, #headerId, #messagesMenuOption, .headerMast, .lc_selectLi .lc_groupMenu lc_navHasChild, .lc_navigation, .accordion>h3, .accordion .lc_accordionMainHdr>h3  {
-		background: #434653!important;
-	}
+.lc_navIcons dashboardIco {
+  background: url("https://i.imgur.com/RqBuY1S.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
 
-	.lc_navBar, .lc_navDiv {
-		background: none repeat scroll 0 0 #0000 !important;
-	}
-	.lc_navBar .lc_pathLi {       
-		background: #4e515c!important;
-	}
+.lc_header,
+.lc_navigation,
+.lc_navigation,
+.lc_selectLi,
+.lc_groupMenu .lc_navHasChild,
+.lc_selectLi,
+.headerMast,
+#headerId,
+#messagesMenuOption,
+.headerMast,
+.lc_selectLi .lc_groupMenu lc_navHasChild,
+.lc_navigation,
+.accordion>h3,
+.accordion .lc_accordionMainHdr>h3 {
+  background: #434653 !important;
+}
 
-	.classScheduleContainer .pagination span.current, .classScheduleContainer .caltodayBlock.lc_todayDisabled {
-		background: #23252b!important;
-	}
+.lc_navBar,
+.lc_navDiv {
+  background: none repeat scroll 0 0 #0000 !important;
+}
 
-	.header .dropdown dt a, .header .dropdown dt a:hover, .header .dropdown dt a:focus, .role_arrow {
-		background: #3d404c !important;
-		background-color: #3d404c!important;
-	}
-	.role_arrow {
-		
-		border: none;
-	}
-	#logoImg {
-		background: url("logoEnhanced.png") no-repeat;
-		opacity: 1;
-		transition:.25s ease-in-out;
-	}
-	#logoImg:hover {
-		background: url("logo.png") no-repeat;
-	}
-	.lc_navIcons {
-		filter: saturate(0%);
-	}
-	a, .subtitlePop span, .inLP {
-		color: #e77121!important;
-	}
-	#chatFrame {
-		filter: invert(75%);
-	}
-	.header .dropdown2 span.role_arrow, .header .dropdown span.role_arrow {
-		border: none;
-		transition:.1s ease-in-out;
-	}
-	.header .dropdown .active span.role_arrow,.header .dropdown dt a:hover span.role_arrow {
-		background-position: -7px -345px;
-		border: none;
-	}
-	#roles dd span.role_arrow:hover,#roles dd span.role_arrow.active {
-    		background: url("../../images/1568045196802/icons_flat.png") no-repeat scroll -7px -314px #fcfdfc;
-	}
+.lc_navBar .lc_pathLi {
+  background: #4e515c !important;
+}
 
-	.lc_loginContainer {
-		background: #1e2025!important;
-		box-shadow: 0 1px 9px rgba(0, 0, 0, 0.34);
-	}
-	.lcs_scrollingPathList {
-		background: #1d1e23;
-	}
-	.sortNavCriteria.selected, .sortNavCriteria.selected:hover {
-		background: #50535e;
-	}
-	.sortNavCriteria.sortArrowUp {
-		background: #2d2f35;
-	}
-	.tabsCont {
-		background: #222429;
-	}
-	.ul-list-tymncy, .tinyPreview {
-		color: #e2e2e2;
-	}
-	.CourseCreationContentRight .sectionHeader {
-		text-shadow: 1px 0 0 rgba(0, 0, 0, 0.75);
-	}
-	ul.sortNavlevels .iuDetails.selected, .iuDetails.sortArrowUp.selected {
-		background-color: #000;
-	}
-	.formLabel {
-		color: #cacaca;
-	}
-	.CourseCreationContentLeft {
-		background: #222429 none;
-	}
-	.lc_navBarInner {
-		background: none repeat scroll 0 0 #434653;
-	}
-	.lc_selectLi:hover {
-		background: #34363e !important;
-	}
-	
-	.lc-hom-box .lc-hom-headr {
-		background-color: #434653!important;
-		background-image: none!important;
-	}
-	.tabsCont {
-		background: #434653;
-	}
-	.tabsCont {
-		border-left: 1px solid #313131;
-		border-right: 1px solid #313131;
-	}
-	.dashBrd-options>a, .searchIcon, .help, .signout, .smallLoader {
-		filter: invert(75%) !important;
-	}
-	.lc_paginationDv {
-		background: none repeat scroll 0 0 #34363ea8!important;
-		border-bottom: 4px solid #353535;
-	}
-	.ui-widget-content {
-		border: 1px solid #34363e !important;
-	    background: #434653;
-	}
-	.classScheduleContainer .fc-today {
-		background: none repeat scroll 0 0 #393c45!important;
-		border-bottom: 1px solid #e77138!important;
-		border-left: 1px solid #e77138!important;
-		border-right: 1px solid #e77138!important;
-	}
-	.ui-widget .fc-event {
-		background-color: #34363e !important;
-		border-color: #434653 !important;
-	}
-	.smalTabs .midBox {
-		background: #434653;
-	}
-	.smalTabs h2 {
-		    border-bottom: 2px solid #393c45;
-	}
-	.header .dropdown dd ul li a.subLinkDDTop:hover, .header .dropdown2 dd ul li a.subLinkDDTop:hover, .header .dropdown dd ul li strong.subLinkDDTop, .header .dropdown2 dd ul li strong.subLinkDDTop, .dashboard-box-black .red-circle .circular-loader-inner, .classScheduleContainer .paginationWrap .weekCounter, .calendarTitleNew, .sectionHeader h2, .selected_role, .lc_navBarTitle, .header .dropdown dt a:hover, .header .dropdown dt a:focus, .header .dropdown dt a, .header .dropdown2 dt a:hover, .header .dropdown2 dt a:focus, .header .dropdown2 dt a, .header .dropdown dt em, .header .dropdown2 dt em, ul.plannerItemsList li h3, ul.plannerItemsList li p, .calSmlBox, .captionsubhead, .classScheduleContainer .ui-widget-header, .lc_colGrey.showToolTip .lc_contTitleLbl, .lc_colGrey.showToolTip .lc_classCode, .classScheduleContainer .pagination span, #selectedNavTitle {
-		color: #fff !important;
-	}
-	.ui-widget-header {
-		background: #34363e;
-		border: 1px solid #34363e !important;
-	}
-	.loader_grey {
-		background:none repeat scroll 0 0 #25262b !important;
-	}
+.classScheduleContainer .pagination span.current,
+.classScheduleContainer .caltodayBlock.lc_todayDisabled {
+  background: #23252b !important;
+}
 
-	.qtip.qtip-defaults {
-		box-shadow: 0 1px 15px 0 #00000040 !important;
-	}
-	.smalTabs .midBox {
-		border: none !important;
-		box-shadow: 0 1px 15px 0 #00000010 !important;
-	}
-	.classScheduleContainer .fc-event {
-		margin-left: 2px !important;
-		margin-right: 2px !important;
-	}
-	.lc_logoBrdr {
-		margin: 11px 5px 0 16px !important;
-	}
-	.dark-green-circle .circular-loader-inner {
-		background: #34363eb8 none;
-	}
-	.dark-green-circle {
-		background: #e77121;
-		color: #fff;
-	}
-	#enhancedFooter {
-		float: center;
-		color: #d50000;
-	}
-	
-	#clock, #footerDate {
-		float: right;
-		text-align: right;
-	}
-	
-	.header .dropdown dt a, .header .dropdown dt a:hover, .header .dropdown dt a:focus {
-		border: 1px solid #34363e;
-	}
-	
-	.header .dropdown dd ul {
-		box-shadow: 0 1px 15px 0 #00000010 !important;
-		background: #34363e;
-		
-	}
-	.dataTabl1 th {
-		color: #fff;
-		background: #34363e;
-	}
-	.sortBlueUpBg {
-		background: #434653!important;
-	}
-	.desBox {
-		background: #34363e;
-	}
-	.event-type.class {
-		background: rgb(216, 128, 68) none;
-	}
-	.filesUploadedHeader {
-		background-color: #2d2f35;
-		border: none;
-		box-shadow: 0 1px 15px 0 #00000040 !important;
-	}
+.header .dropdown dt a,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus,
+.role_arrow {
+  background-color: #3d404c !important;
+}
+
+.role_arrow {
+
+  border: none;
+}
+
+#logoImg {
+  background: url("logoEnhanced.png") no-repeat;
+  opacity: 1;
+  transition: .25s ease-in-out;
+}
+
+#logoImg:hover {
+  background: url("logo.png") no-repeat;
+}
+
+.lc_navIcons {
+  filter: saturate(0%);
+}
+
+a,
+.subtitlePop span,
+.inLP {
+  color: #ffffff !important;
+}
+
+#chatFrame {
+  filter: invert(75%);
+}
+
+.header .dropdown2 span.role_arrow,
+.header .dropdown span.role_arrow {
+  border: none;
+  transition: .1s ease-in-out;
+}
+
+.header .dropdown .active span.role_arrow,
+.header .dropdown dt a:hover span.role_arrow {
+  background-position: -7px -345px;
+  border: none;
+}
+
+#roles dd span.role_arrow:hover,
+#roles dd span.role_arrow.active {
+  background: url("../../images/1568045196802/icons_flat.png") no-repeat scroll -7px -314px #fcfdfc;
+}
+
+.lc_loginContainer {
+  background: #1e2025 !important;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.34);
+}
+
+.lcs_scrollingPathList {
+  background: #1d1e23;
+}
+
+.sortNavCriteria.selected,
+.sortNavCriteria.selected:hover {
+  background: #50535e;
+}
+
+.sortNavCriteria.sortArrowUp {
+  background: #2d2f35;
+}
+
+.tabsCont {
+  background: #222429;
+}
+
+.ul-list-tymncy,
+.tinyPreview {
+  color: #e2e2e2;
+}
+
+.CourseCreationContentRight .sectionHeader {
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.75);
+}
+
+ul.sortNavlevels .iuDetails.selected,
+.iuDetails.sortArrowUp.selected {
+  background-color: #000;
+}
+
+.formLabel {
+  color: #cacaca;
+}
+
+.CourseCreationContentLeft {
+  background: #222429 none;
+}
+
+.lc_navBarInner {
+  background: none repeat scroll 0 0 #434653;
+}
+
+.lc_selectLi:hover {
+  background: #34363e !important;
+}
+
+.lc-hom-box .lc-hom-headr {
+  background-color: #434653 !important;
+  background-image: none !important;
+}
+
+.tabsCont {
+  background: #434653;
+}
+
+.tabsCont {
+  border-left: 1px solid #313131;
+  border-right: 1px solid #313131;
+}
+
+.dashBrd-options>a,
+.searchIcon,
+.help,
+.signout,
+.smallLoader {
+  filter: invert(75%) !important;
+}
+
+.lc_paginationDv {
+  background: none repeat scroll 0 0 #34363ea8 !important;
+  border-bottom: 4px solid #353535;
+}
+
+.ui-widget-content {
+  border: 1px solid #34363e !important;
+  background: #434653;
+}
+
+.classScheduleContainer .fc-today {
+  background: none repeat scroll 0 0 #393c45 !important;
+  border-bottom: 1px solid #e77138 !important;
+  border-left: 1px solid #e77138 !important;
+  border-right: 1px solid #e77138 !important;
+}
+
+.ui-widget .fc-event {
+  background-color: #34363e !important;
+  border-color: #434653 !important;
+}
+
+.smalTabs .midBox {
+  background: #434653;
+}
+
+.smalTabs h2 {
+  border-bottom: 2px solid #393c45;
+}
+
+.header .dropdown dd ul li a.subLinkDDTop:hover,
+.header .dropdown2 dd ul li a.subLinkDDTop:hover,
+.header .dropdown dd ul li strong.subLinkDDTop,
+.header .dropdown2 dd ul li strong.subLinkDDTop,
+.dashboard-box-black .red-circle .circular-loader-inner,
+.classScheduleContainer .paginationWrap .weekCounter,
+.calendarTitleNew,
+.sectionHeader h2,
+.selected_role,
+.lc_navBarTitle,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus,
+.header .dropdown dt a,
+.header .dropdown2 dt a:hover,
+.header .dropdown2 dt a:focus,
+.header .dropdown2 dt a,
+.header .dropdown dt em,
+.header .dropdown2 dt em,
+ul.plannerItemsList li h3,
+ul.plannerItemsList li p,
+.calSmlBox,
+.captionsubhead,
+.classScheduleContainer .ui-widget-header,
+.lc_colGrey.showToolTip .lc_contTitleLbl,
+.lc_colGrey.showToolTip .lc_classCode,
+.classScheduleContainer .pagination span,
+#selectedNavTitle {
+  color: #fff !important;
+}
+
+.ui-widget-header {
+  background: #34363e;
+  border: 1px solid #34363e !important;
+}
+
+.loader_grey {
+  background: none repeat scroll 0 0 #25262b !important;
+}
+
+.qtip.qtip-defaults {
+  box-shadow: 0 1px 15px 0 #00000040 !important;
+}
+
+.smalTabs .midBox {
+  border: none !important;
+  box-shadow: 0 1px 15px 0 #00000010 !important;
+}
+
+.classScheduleContainer .fc-event {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+.lc_logoBrdr {
+  margin: 11px 5px 0 16px !important;
+}
+
+.dark-green-circle .circular-loader-inner {
+  background: #34363eb8 none;
+}
+
+.dark-green-circle {
+  background: #e77121;
+  color: #fff;
+}
+
+#enhancedFooter {
+  float: center;
+  color: #d50000;
+}
+
+#clock,
+#footerDate {
+  float: right;
+  text-align: right;
+}
+
+.header .dropdown dt a,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus {
+  border: 1px solid #34363e;
+}
+
+.header .dropdown dd ul {
+  box-shadow: 0 1px 15px 0 #00000010 !important;
+  background: #34363e;
+
+}
+
+.dataTabl1 th {
+  color: #fff;
+  background: #34363e;
+}
+
+.sortBlueUpBg {
+  background: #434653 !important;
+}
+
+.desBox {
+  background: #34363e;
+}
+
+.event-type.class {
+  background: rgb(216, 128, 68) none;
+}
+
+.filesUploadedHeader {
+  background-color: #2d2f35;
+  border: none;
+  box-shadow: 0 1px 15px 0 #00000040 !important;
+}
+
+.tac-progress-done {
+  background: #2193e6;
+}
