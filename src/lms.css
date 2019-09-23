@@ -321,3 +321,7 @@ ul.plannerItemsList li p,
 .tac-progress-done {
   background: #2193e6;
 }
+
+#githubLink {
+	color: #2193e6 !important;
+}
