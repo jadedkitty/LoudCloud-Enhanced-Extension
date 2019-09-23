@@ -26,6 +26,11 @@ function addFooter() {
 	document.getElementsByClassName('footerMast')[0].appendChild(footer);
 	document.getElementById('enhancedFooter').textContent = 'LoudCloud Enhanced by jadedkitty  [Ver: 1.1]';
 	//console.log('chat.contentWindow =', chat.contentWindow);
+	var github = document.createElement('a');
+	github.id = 'githubLink';
+	document.getElementsByClassName('footerMast')[0].appendChild(github);
+	document.getElementById('githubLink').textContent = '  -->  See <> on GitHub';
+	document.getElementById('githubLink').href = 'https://github.com/jadedkitty/LoudCloud-Enhanced-Extension';
 }
 function removeElement(elementId) {
     // Removes an element from the DOM
