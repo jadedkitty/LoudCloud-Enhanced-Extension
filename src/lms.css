@@ -206,6 +206,8 @@ ul.sortNavlevels .iuDetails.selected,
   border-bottom: 2px solid #393c45;
 }
 
+.acordianBx .acrdBxdesing .acrdHeader span,
+.acordianBx .acrdBxdesing ul li,
 .header .dropdown dd ul li a.subLinkDDTop:hover,
 .header .dropdown2 dd ul li a.subLinkDDTop:hover,
 .header .dropdown dd ul li strong.subLinkDDTop,
@@ -234,6 +236,10 @@ ul.plannerItemsList li p,
 .classScheduleContainer .pagination span,
 #selectedNavTitle {
   color: #fff !important;
+}
+
+.acordianBx .acrdBxdesing .acrdHeader span {
+	text-shadow: none !important;
 }
 
 .ui-widget-header {
@@ -305,7 +311,7 @@ ul.plannerItemsList li p,
   background: #434653 !important;
 }
 
-.desBox {
+.desBox, .chartViewOptions.cbl_menuTabs li a:hover, .chartViewOptions.cbl_menuTabs li a.selected {
   background: #34363e;
 }
 
@@ -330,3 +336,12 @@ ul.plannerItemsList li p,
 	background-position: -8px -131px !important;
 	background-image: url(https://lms-trad.gcu.edu/learningPlatform/images/1568045196802/dashboard/icons_dashboard.png);
 }
+.dataTabl1 tr.selected {
+	background: #868ca5 !important;
+}
+
+.lc_contentHeader, .tabsTop, .tabsTopRight {
+	background: #434653 !important;
+}
+
+	
