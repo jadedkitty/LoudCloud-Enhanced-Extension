@@ -1,1 +1,0 @@
-userDashboardWidget.restoreDefaultConfig();

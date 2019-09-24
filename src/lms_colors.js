@@ -7,22 +7,12 @@ style.href = chrome.extension.getURL('lms.css');
 
 var logoURL = chrome.extension.getURL("logoBlank.png");
 
-//chrome.storage.sync.set({ "noteNumber": "0" }, function(){
-//});
-//chrome.storage.local.set({ "noteNumber": "0" }, function(){
-    //  Data's been saved boys and girls, go on home
-//});
-
-var noteNumber = '0';
-
-
 //replaces communities widget contents with chat iframe
 function addChat() {
   var chat = document.createElement('iframe');
   chat.src = 'https://deadsimplechat.com/4oAlSsyKG'
   chat.width = '100%';
   chat.height = '280px';
-  chat.frameBorder = '0';
   chat.id = 'chatFrame';
   document.getElementById('my-groupsListWrap').appendChild(chat);
   //console.log('chat.contentWindow =', chat.contentWindow);
@@ -55,54 +45,27 @@ function addNotes() {
   notesWidgetHeader.id = '71';
   
   var notesWidgetHeaderText = document.createElement('h2');
-  notesWidgetHeaderText.textContent = 'Notes';
-  notesWidgetHeaderText.id = '72';
-  
-  //chrome.storage.sync.get(/* String or Array */["noteNumber"], function(noteCount){
-    //noteCount = "noteNumber";
-  //});
-  
-  var notesCounter = document.createElement('span');
-  notesCounter.className = 'counter';
-  notesCounter.id = 'notesCounter';
-  notesCounter.textContent = noteNumber;
-  
+  notesWidgetHeader.textContent = 'Notes';
+  notesWidgetHeader.id = '72';
+
   var notesWidgetContent = document.createElement('div');
   notesWidgetContent.className = 'tac-dashboard-box-content';
   notesWidgetContent.id = '74'
   
   var notesWidgetContentWrapper = document.createElement('div');
-  notesWidgetContentWrapper.className = 'tac-dashboard-box-content posRel ps ps--active-y';
-  notesWidgetContentWrapper.style = 'height:284px; overflow:hidden';
-  notesWidgetContentWrapper.id = '75';
+  notesWidgetContentWrapper.className = 'recommended-plan posRel ps';
+  //var notesWidgetSettings = document.createElement('div');
+  //notesWidgetSettings.className = 'fc-settingBox';
+  //notesWidgetSwttings.id = '73';
   
-  //var notesWidgetList = document.createElement('ul');
-  //var baseNoteHeight = 252;
-  //notesWidgetList.className = 'meta-list left-icon right-content';
-  //notesWidgetList.style = 'height: ${baseNoteHeight * noteNumber}px';
-  //notesWidgetList.id = '76';
-  
-  var notes = document.createElement('iframe');
-  notes.src = chrome.extension.getURL("notes.html");
-  notes.width = '100%';
-  notes.height = '280px';
-  notes.frameBorder = '0';
-  notes.id = 'notesList';
-  
-  var notesWidgetSettings = document.createElement('div');
-  notesWidgetSettings.className = 'fc-settingBox,';
-  notesWidgetSettings.id = '78';
-  
-  var notesWidgetSettingsLink = document.createElement('a');
-  notesWidgetSettingsLink.className = 'fc-settingLink fc-settingLinkYellow fc-settingLinkDropDown';
-  notesWidgetSettings.setAttribute('aria-label', 'Select Submissions Filters');
-  notesWidgetSettingsLink.href = 'javascript:void(0)';
-  notesWidgetSettingsLink.onclick = 'javascript:userDashboardWidget.showAndHideFilterPopUp(this)';
-  notesWidgetSettingsLink.setAttribute('aria-expanded', 'false');
-  notesWidgetSettingsLink.textContent = '&nbsp;';
-  notesWidgetSettingsLink.style = 'background-image: url(../../images/1568045196802/dashboard/icons_dashboard.png) no-repeat 0 0 !important; background-position: -8px -131px !important';
-  notesWidgetSettingsLink.id = 'noteButton';
-  
+  //var notesWidgetSettingsLink = document.createElement('a');
+  //notesWidgetSettingsLink.className = 'fc-settingLink fc-settingLinkYellow fc-settingLinkDropDown';
+  //notesWidgetSettings.aria-label = 'Select Submissions Filters';
+  //notesWidgetSettingsLink.href = 'javascript:void(0)';
+  //notesWidgetSettingsLink.onclick = 'javascript:userDashboardWidget.showAndHideFilterPopUp(this)';
+  //notesWidgetSettingsLink.aria-expanded = 'false';
+  //notesWidgetSettingsLink.textContent = '&nbsp;';
+  //notesWidgetSwttingsLink.id = '73';
   var widgetColumns = document.getElementById('columns');
   if (!widgetColumns) {
     //node does not exist yet
@@ -115,129 +78,9 @@ function addNotes() {
     return;
   }
   widgetColumns.appendChild(notesWidget);
-  
-  var notesWrapper = document.getElementById('69');
-  if (!notesWrapper) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesWrapper;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesWrapper.appendChild(notesWidgetWrapper);
-  
-  var notesHeader = document.getElementById('70');
-  if (!notesHeader) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesHeader;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesHeader.appendChild(notesWidgetHeader);
-  
-  var notesContent = document.getElementById('70');
-  if (!notesContent) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesContent;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesContent.appendChild(notesWidgetContent);
-  document.getElementById('70').appendChild(notesWidgetContent);
-  
-    var notesContentWrapper = document.getElementById('74');
-  if (!notesContentWrapper) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesContentWrapper;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesContentWrapper.appendChild(notesWidgetContentWrapper);
-  
-  var notesFrame = document.getElementById('75');
-  if (!notesFrame) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesFrame;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesFrame.appendChild(notes);
-  
-  var notesHeaderText = document.getElementById('71');
-  if (!notesHeaderText) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesHeaderText;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesHeaderText.appendChild(notesWidgetHeaderText);
-  //notesHeaderText.appendChild(notesWidgetSettings);
-  
-    var notesWidgetSettingsSub = document.getElementById('78');
-  if (!notesWidgetSettingsSub) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesWidgetSettingsSub;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesWidgetSettingsSub.appendChild(notesWidgetSettingsLink);
-  
-  var notesHeaderCounter = document.getElementById('72');
-  if (!notesHeaderCounter) {
-    //node does not exist yet
-    //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
-    window.setTimeout(function() {
-      notesHeaderCounter;
-    }, 1);
-    //console.log(widgetName +': Trying again...');
-    return;
-  }
-  notesHeaderCounter.appendChild(notesCounter);
-}
-
-function addNoteToWidget() {
-	var title = prompt("Please enter a title for your note");
-
-	if (title != null) {
-		var noteContent = prompt("Please enter the content of your note")
-		if (noteContent != null) {
-			return;
-		}
-		return;
-	}
-	var newNote = noteContent;
-	//var noteCreate = document.createElement('li');
-	//noteCreate.className('assignment-white');
-	
-//	document.getElementById("76").appendChild(
+  document.getElementById('69').appendChild(notesWidgetWrapper);
+  document.getElementById('70').appendChild(notesWidgetHeader);
+  document.getElementById('71').appendChild(notesWidgetHeaderText);
 }
 
 function removeElement(elementId) {
@@ -282,8 +125,7 @@ window.onload = function() { // runs functions on page load for detecting widget
   detectAndSetWidget('studentGradebookWrapper');
   detectAndSetWidget('wrapper_campus_communities');
   detectAndSetWidget('wrapper_comp_based_courses2');
-  //var noteNumber = chrome.storage.local.get(/* String or Array */["noteNumber"]);
-  //addNotes();
+  addNotes();
 
 }
 
