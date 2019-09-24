@@ -11,7 +11,8 @@
   
   "permissions": [
      "activeTab",
-	 "clipboardWrite"
+	 "clipboardWrite",
+	 "storage"
    ],
    
    "content_scripts":[{
@@ -34,6 +35,9 @@
    "web_accessible_resources": [
      "lms.css",
 	 "*.png",
+	 "*.html",
+	 "resetWidgets2.js",
+	 "addNotes2.js",
 	 "chrome://extensions/?options=dgjckphnmdgjfbdipmoagfbbkgffhodp"
    ],
 "browser_action": {
