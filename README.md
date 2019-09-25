@@ -3,6 +3,11 @@
 # LoudCloud Enhanced Extension for Google Chrome
 This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode feature as well as user friendly addtions such as an integrated chat feature to chat with other online users of the extension.
 
+## Features
+ - Dark theme
+ - Chat widget (Replaces communities widget)
+ - Path navigation panel overlap bug fix
+ 
 ## Future Features:
  - Settings
  - Multiple Themes
@@ -10,11 +15,6 @@ This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode f
  - Notes Widget (added but broken)
  - Mess with RSS planner
  
-## Features
- - Dark theme
- - Chat widget (Replaces communities widget)
- - Path navigation panel overlap bug fix
-
 ## Chrome Webstore extension
 [Click to go to Chrome Webstore page](https://chrome.google.com/webstore/detail/loudcloud-enhanced/agmdpbckjjdnghbldagoiaaokcefkbmb)
 
