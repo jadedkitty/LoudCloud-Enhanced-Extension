@@ -457,5 +457,5 @@ ul.chartViewOptions li a span.role_arrow {
 	color: #000;
 }
 .noNotifications {
-	color: #d50000
+	background: #d50000 none !important
 }
