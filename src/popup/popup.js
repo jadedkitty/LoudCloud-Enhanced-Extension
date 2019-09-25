@@ -1,12 +1,12 @@
 function resetWidgets() {
   chrome.tabs.executeScript({
-    file: 'resetWidgets.js'
+    file: 'widgetButtons/resetWidgets.js'
   }); 
 }
 
 function addNotesWidget() {
   chrome.tabs.executeScript({
-    file: 'addNotes2.js'
+    file: 'widgetButtons/addNotes2.js'
   }); 
 }
 
