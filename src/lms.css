@@ -422,3 +422,20 @@ ul.chartViewOptions li a span.role_arrow {
 .midltblhed .unreadcls td {
 	background-color: #505463;
 }
+.chartViewOptions.cbl_menuTabs li a:hover, .chartViewOptions.cbl_menuTabs li a.selected {
+	color: #e77121 !important;
+}
+.lc_navArrow:after {
+	border-top-color: #e77124!important;
+}
+.lc_rosterSearchResult {
+	background: #434653!important;
+}
+.btn.btn_primary {
+	background: linear-gradient(to bottom,#bf8e5c 0,#e77124 100%);
+	border: 1px solid #e77124;
+	text-shadow: 2px 1px 0 #e77124 !important;
+}
+#calendarMenuoption, #coursesMenuOption {
+	border-bottom: 1px solid #e0e0e0;
+}
