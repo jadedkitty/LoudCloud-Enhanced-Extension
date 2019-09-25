@@ -205,7 +205,7 @@ ul.sortNavlevels .iuDetails.selected,
 .smalTabs h2 {
   border-bottom: 2px solid #393c45;
 }
-
+.dm-svrepotInner .midltblhed table td,
 .lc_techSupportTitle h4,
 .lc_infoTable td,
 .acordianBx .acrdBxdesing .acrdHeader span,
@@ -391,4 +391,34 @@ ul.plannerItemsList li p,
 }
 .dm-svrepotInner .midltblhed table td {
 	border-bottom: dotted #434653 1px;
+}
+ul.chartViewOptions li a span.role_arrow {
+	border-style: none;
+	border-radius: 7px 7px 7px 7px;
+}
+.role_arrow {
+	background-color: #3d404c !important;
+}
+.paginationBig .pagination a {
+	background: none repeat scroll 0 0 #434653;
+}
+.paginationBig .pagination .prev, .paginationBig .pagination .next, .paginationBig .pagination span {
+	border: 1px solid #434653;
+}
+.paginationBig .pagination span {
+	background: none repeat scroll 0 0 #434653;
+}
+.paginationBig .pagination span.current {
+	background: none repeat scroll 0 0 #292b31;
+}
+.expPanelBox .topicMast1, .forumStatusTop, .expPanel5, .expPanel5:hover, .expPanel4, .expPanel4:hover {
+    background: no-repeat scroll center -20px #34363e !important;
+}
+.expPanel4 {
+	margin-top: 0;
+	background-position: center 0;
+	background: url(https://lms-trad.gcu.edu/learningPlatform/images/1568045196802/exp-colps3.png) no-repeat scroll center -20px #34363e !important;;
+}
+.midltblhed .unreadcls td {
+	background-color: #505463;
 }
