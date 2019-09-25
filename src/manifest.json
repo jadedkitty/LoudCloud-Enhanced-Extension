@@ -14,13 +14,17 @@
 	 "clipboardWrite",
 	 "storage"
    ],
-   
-   "content_scripts":[{
-    "matches": ["https://lms-trad.gcu.edu/*",
-	"https://lms-testdrive.gcu.edu/*"
-	],
+	
+	"content_scripts": [
+  {
+    "matches": ["https://lms-trad.gcu.edu/*", "https://lms-testdrive.gcu.edu/*"],
     "js": ["loudCloudEnhanced.js"]
-	}],
+  },
+  {
+    "matches": ["https://lms-trad.gcu.edu/learningPlatform/user/GCU/*"],
+    "js": ["loudCloudEnhancedLogin.js"]
+  }
+],
 	
    "icons": {
 		"128": "icon.png"
