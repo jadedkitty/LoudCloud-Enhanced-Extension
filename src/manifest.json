@@ -41,7 +41,6 @@
 	 "*.png",
 	 "*.html",
 	 "popup/resetWidgets2.js",
-	 "popup/addNotes2.js"
    ],
 "browser_action": {
           "default_title": "LoudCloud Enhanced",

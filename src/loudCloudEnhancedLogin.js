@@ -7,13 +7,6 @@ style.href = chrome.extension.getURL('/themes/darkTheme/darkTheme.css');
 
 var logoURL = chrome.extension.getURL("/themes/logos/logoBlank.png");
 
-//chrome.storage.sync.set({ "noteNumber": "0" }, function(){
-//});
-//chrome.storage.local.set({ "noteNumber": "0" }, function(){
-    //  Data's been saved boys and girls, go on home
-//});
-
-
 function addFooter() {
   var footer = document.createElement('span');
   footer.className = 'buildVersion';
@@ -33,11 +26,9 @@ function removeElement(elementId) {
   if (!element) {
     //node does not exist yet
     //wait 1ms and try again
-    //console.log(widgetName +': Not loaded');
     window.setTimeout(function() {
       removeElement(elementId);
     }, 1);
-    //console.log(widgetName +': Trying again...');
     return;
   }
   element.parentNode.removeChild(element);
