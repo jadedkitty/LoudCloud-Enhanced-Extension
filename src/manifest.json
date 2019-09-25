@@ -40,7 +40,7 @@
      "themes/*",
 	 "*.png",
 	 "*.html",
-	 "popup/resetWidgets2.js",
+	 "popup/resetWidgets2.js"
    ],
 "browser_action": {
           "default_title": "LoudCloud Enhanced",
