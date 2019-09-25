@@ -456,6 +456,6 @@ ul.chartViewOptions li a span.role_arrow {
 .sectionContainer h3.sectionSubHeader span {
 	color: #000;
 }
-.noNotifications
+.noNotifications {
 	color: #d50000
 }
