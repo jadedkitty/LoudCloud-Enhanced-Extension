@@ -360,3 +360,13 @@ ul.plannerItemsList li p,
 .popCont>h1, .boxy-wrapper .title-bar>h2, #popup>h1, #popup2>h1, #popup3 h1, .inLinePopupMain>h1, .popCont h1.lcs_popContHeader {
 	background: linear-gradient(to bottom,#43444a 0,#282a32 100%)!important;
 }
+.CourseCreationContentRight {
+	overflow: hidden!important;
+	z-index: 5;
+}
+.posFixed {
+	position: relative !important;
+}
+.lcs_scrollingPathList {
+	z-index: 3;
+}
