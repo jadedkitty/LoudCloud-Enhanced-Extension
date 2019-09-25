@@ -7,9 +7,13 @@ This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode f
  - Settings
  - Multiple Themes
  - Widget Lock
- - Notes Widget
+ - Notes Widget (added but broken)
  - Mess with RSS planner
- - Path navigation bug fix
+ 
+## Features
+ - Dark theme
+ - Chat widget (Replaces communities widget)
+ - Path navigation panel overlap bug fix
 
 ## Chrome Webstore extension
 [Click to go to Chrome Webstore page](https://chrome.google.com/webstore/detail/loudcloud-enhanced/agmdpbckjjdnghbldagoiaaokcefkbmb)
