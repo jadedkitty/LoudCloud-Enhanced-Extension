@@ -449,3 +449,10 @@ ul.chartViewOptions li a span.role_arrow {
 	border-bottom: 2px solid #4e515c;
 	border-top: 2px solid #4e515c;
 }
+.sectionContainer h3.sectionSubHeader {
+	filter: invert(75%);
+	color: #000;
+}
+.sectionContainer h3.sectionSubHeader span {
+	color: #000;
+}
