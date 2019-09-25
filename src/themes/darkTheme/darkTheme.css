@@ -465,3 +465,7 @@ ul.chartViewOptions li a span.role_arrow {
 	background: none repeat scroll 0 0 #d50000;
 	color: #c7c7c7  
 }
+.textField5 {
+    border: solid #fff 1px;
+    padding: 4px;
+}
