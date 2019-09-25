@@ -459,3 +459,5 @@ ul.chartViewOptions li a span.role_arrow {
 .noNotifications {
 	background: #d50000 none !important
 }
+.lc_notifArea span .lc_countLbl {
+	background: none repeat scroll 0 0 #d50000;
