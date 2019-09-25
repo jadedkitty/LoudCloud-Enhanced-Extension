@@ -18,6 +18,9 @@ This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode f
 ## Chrome Webstore extension:
 [Click to go to Chrome Webstore page](https://chrome.google.com/webstore/detail/loudcloud-enhanced/agmdpbckjjdnghbldagoiaaokcefkbmb)
 
+## Gource
+Gource is a visualization tool for git repos. You can see the latest gource for this repo [here](https://youtu.be/2TIBcEnUjRI)
+
 ## Disclaimer:
 Users who utilize this extension accept that it is done so at their own risk, caution is reccommended.  
 We (the developers of the extension) are not responsible for errors in assignments, maulfunctioning quizzes, thermonuclear war, or you getting dropped from your class because your class wall post didn't go through.  
