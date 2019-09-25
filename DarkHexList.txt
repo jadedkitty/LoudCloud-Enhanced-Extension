@@ -1,11 +1,367 @@
 Dark Pallette Hex Code List:
 
+//specified hext codes for types of elements
 Page Background: #34363e
 Header: #434653
 NavBar: #4e515c
 Class Schedule: #23252b
-Clickable Text: #e77121
+Clickable Text: #ffffff
 Login Box: #1e2025
 Path List: #1d1e23
 Path Selected: #50535e
 Path Dropdown: #2d2f35
+
+//not yet classified elements with corresponding hex codes from css
+body:
+  background: #34363e 
+  color: #cacaca
+
+element.style: 
+  color: #121212
+  background: #34363e
+
+
+#headerId: 
+  background:#434653
+
+
+.lc_header,
+.lc_navigation,
+.lc_navigation,
+.lc_selectLi,
+.lc_groupMenu .lc_navHasChild,
+.lc_selectLi,
+.headerMast,
+#headerId,
+#messagesMenuOption,
+.headerMast,
+.lc_selectLi .lc_groupMenu lc_navHasChild,
+.lc_navigation,
+.accordion>h3,
+.accordion .lc_accordionMainHdr>h3 
+  background: #434653
+
+
+.lc_navBar,
+.lc_navDiv 
+  background: #0000
+
+
+.lc_navBar .lc_pathLi 
+  background: #4e515c
+
+
+.classScheduleContainer .pagination span.current,
+.classScheduleContainer .caltodayBlock.lc_todayDisabled 
+  background: #23252b
+
+
+.header .dropdown dt a,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus,
+.role_arrow 
+  background-color: #3d404c
+
+a,
+.subtitlePop span,
+.inLP 
+  color: #ffffff
+
+
+#roles dd span.role_arrow:hover,
+#roles dd span.role_arrow.active 
+  background: #fcfdfc
+
+
+.lc_loginContainer 
+  background: #1e2025 
+
+
+.lcs_scrollingPathList 
+  background: #1d1e23
+
+
+.sortNavCriteria.selected,
+.sortNavCriteria.selected:hover 
+  background: #50535e
+
+
+.sortNavCriteria.sortArrowUp 
+  background: #2d2f35
+
+
+.tabsCont 
+  background: #222429
+
+
+.ul-list-tymncy,
+.tinyPreview 
+  color: #e2e2e2
+
+ul.sortNavlevels .iuDetails.selected,
+.iuDetails.sortArrowUp.selected 
+  background-color: #000
+
+
+.formLabel 
+  color: #cacaca
+
+
+.CourseCreationContentLeft 
+  background: #222429 none
+
+
+.lc_navBarInner 
+  background: none repeat scroll 0 0 #434653
+
+
+.lc_selectLi:hover 
+  background: #34363e 
+
+
+.lc-hom-box .lc-hom-headr 
+  background-color: #434653 
+
+
+.tabsCont 
+  background: #434653
+
+
+.tabsCont 
+  border-left: #313131
+  border-right: #313131
+
+.lc_paginationDv 
+  background: #34363ea8 
+  border-bottom: #353535
+
+
+.ui-widget-content 
+  border: #34363e 
+  background: #434653
+
+
+.classScheduleContainer .fc-today 
+  background: #393c45 
+  border-bottom: #e77138 
+  border-left: #e77138 
+  border-right: #e77138 
+
+
+.ui-widget .fc-event 
+  background-color: #34363e 
+  border-color: #434653 
+
+
+.smalTabs .midBox 
+  background: #434653
+
+
+.smalTabs h2 
+  border-bottom: #393c45
+
+.dm-svrepotInner .midltblhed table td,
+.lc_techSupportTitle h4,
+.lc_infoTable td,
+.acordianBx .acrdBxdesing .acrdHeader span,
+.acordianBx .acrdBxdesing ul li,
+.header .dropdown dd ul li a.subLinkDDTop:hover,
+.header .dropdown2 dd ul li a.subLinkDDTop:hover,
+.header .dropdown dd ul li strong.subLinkDDTop,
+.header .dropdown2 dd ul li strong.subLinkDDTop,
+.dashboard-box-black .red-circle .circular-loader-inner,
+.classScheduleContainer .paginationWrap .weekCounter,
+.calendarTitleNew,
+.sectionHeader h2,
+.selected_role,
+.lc_navBarTitle,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus,
+.header .dropdown dt a,
+.header .dropdown2 dt a:hover,
+.header .dropdown2 dt a:focus,
+.header .dropdown2 dt a,
+.header .dropdown dt em,
+.header .dropdown2 dt em,
+ul.plannerItemsList li h3,
+ul.plannerItemsList li p,
+.calSmlBox,
+.captionsubhead,
+.classScheduleContainer .ui-widget-header,
+.lc_colGrey.showToolTip .lc_contTitleLbl,
+.lc_colGrey.showToolTip .lc_classCode,
+.classScheduleContainer .pagination span,
+#selectedNavTitle 
+  color: #fff 
+
+.ui-widget-header 
+  background: #34363e
+  border: #34363e 
+
+
+.loader_grey 
+  background: #25262b 
+
+
+.qtip.qtip-defaults 
+  box-shadow: #00000040 
+
+
+.smalTabs .midBox 
+  box-shadow: #00000010 
+
+
+.dark-green-circle .circular-loader-inner 
+  background: #34363eb8
+
+
+.dark-green-circle 
+  background: #e77121
+  color: #fff
+
+
+#enhancedFooter 
+  color: #c2c2c2
+  text-shadow: #d50000
+
+.header .dropdown dt a,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus 
+  border: #34363e
+
+
+.header .dropdown dd ul 
+  box-shadow: #00000010 
+  background: #34363e
+
+
+
+.dataTabl1 th 
+  color: #fff
+  background: #434653
+
+
+.sortBlueUpBg 
+  background: #434653 
+
+
+.desBox, .chartViewOptions.cbl_menuTabs li a:hover, .chartViewOptions.cbl_menuTabs li a.selected 
+  background: #34363e
+
+
+.event-type.class 
+  background: rgb(216, 128, 68)
+
+
+.filesUploadedHeader 
+  background-color: #2d2f35
+  box-shadow: #00000040 
+
+
+.tac-progress-done 
+  background: #2193e6
+
+
+#githubLink 
+	color: #2193e6 
+
+.dataTabl1 tr.selected 
+	background: #868ca5 
+
+
+.lc_contentHeader, .tabsTop, .tabsTopRight 
+	background: #434653 
+
+
+.tchSupportHead, .inLinePopupMain  
+	background: #303238
+
+
+.buttonRow 
+	background: #282a32
+    border: #1d1e23
+
+.techSendBtn 
+	background gradient: #303238, #1d1e23
+
+.popCont>h1,
+.boxy-wrapper .title-bar>h2, #popup>h1, #popup2>h1, #popup3 h1, .inLinePopupMain>h1, .popCont h1.lcs_popContHeader 
+	background gradient: #43444a, #282a32
+
+.dm-svrepotInner,
+.dm-svrepotInner .midltblhed table tr:nth-child(even) 
+	background-color: #34363e 
+
+
+.dm-svrepotInner 
+	border: #313131
+
+.dm-svrepotInner .tptblhed table th 
+	background-color: #434653
+
+.dm-svrepotInner .midltblhed table tr:hover 
+	background-color:#434653 
+
+.midltblhed 
+	border: #434653
+
+.dm-svrepotInner .midltblhed table td 
+	border-bottom: #434653
+
+.role_arrow 
+	background-color: #3d404c 
+
+.paginationBig .pagination a 
+	background: #434653
+
+.paginationBig .pagination .prev, .paginationBig .pagination .next, .paginationBig .pagination span 
+	border: #434653
+
+.paginationBig .pagination span 
+	background: #434653
+
+.paginationBig .pagination span.current 
+	background: #292b31
+
+.expPanelBox .topicMast1, .forumStatusTop, .expPanel5, .expPanel5:hover, .expPanel4, .expPanel4:hover 
+    background: #34363e 
+
+.expPanel4 
+	margin-top: 0
+	background-position: center 0
+	background: #34363e 
+
+.midltblhed .unreadcls td 
+	background-color: #505463
+
+.chartViewOptions.cbl_menuTabs li a:hover, .chartViewOptions.cbl_menuTabs li a.selected 
+	color: #e77121 
+
+.lc_navArrow:after 
+	border-top-color: #e77124
+
+.lc_rosterSearchResult 
+	background: #434653
+
+.btn.btn_primary 
+	background gradient: #bf8e5c,#e77124
+	border: #e77124
+	text-shadow: #e77124 
+
+#calendarMenuoption, #coursesMenuOption 
+	border-bottom: #e0e0e0
+
+.classWallWrap .grayPostWrap 
+	background: #34363e
+
+.lc_wrapperTabsContent .post_tab ul li a, .lc_wrapperTabsContent .button-group a 
+	background: #34363e
+	border-right: #4e515c
+	border-bottom: #4e515c
+	border-top: #4e515c
+
+.sectionContainer h3.sectionSubHeader
+	color: #fff
+
+.sectionContainer h3.sectionSubHeader span 
+	color: #fff

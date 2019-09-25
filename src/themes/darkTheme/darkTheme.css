@@ -62,13 +62,13 @@ element.style {
 }
 
 #logoImg {
-  background: url("logoEnhanced.png") no-repeat;
+  background: url("../logos/logoEnhanced.png") no-repeat;
   opacity: 1;
   transition: .25s ease-in-out;
 }
 
 #logoImg:hover {
-  background: url("logo.png") no-repeat;
+  background: url("../logos/whiteGCULogo.png") no-repeat;
 }
 
 .lc_navIcons {

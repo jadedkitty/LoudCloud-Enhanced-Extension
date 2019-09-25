@@ -2,10 +2,10 @@
 var style = document.createElement('link');
 style.rel = 'stylesheet';
 style.type = 'text/css';
-style.href = chrome.extension.getURL('lms.css');
+style.href = chrome.extension.getURL('/themes/darkTheme/darkTheme.css');
 (document.head || document.documentElement).appendChild(style);
 
-var logoURL = chrome.extension.getURL("logoBlank.png");
+var logoURL = chrome.extension.getURL("/themes/logos/logoBlank.png");
 
 //chrome.storage.sync.set({ "noteNumber": "0" }, function(){
 //});
@@ -83,7 +83,7 @@ function addNotes() {
   //notesWidgetList.id = '76';
   
   var notes = document.createElement('iframe');
-  notes.src = chrome.extension.getURL("notes.html");
+  notes.src = chrome.extension.getURL("/widgets/notesWidget/notesWidget.html");
   notes.width = '100%';
   notes.height = '280px';
   notes.frameBorder = '0';
