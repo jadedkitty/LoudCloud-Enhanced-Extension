@@ -2,7 +2,7 @@
 var style = document.createElement('link');
 style.rel = 'stylesheet';
 style.type = 'text/css';
-style.href = chrome.extension.getURL('/themes/darkTheme/darkTheme.css');
+style.href = chrome.extension.getURL('/themes/darkTheme/darkThemeLogin.css');
 (document.head || document.documentElement).appendChild(style);
 
 var logoURL = chrome.extension.getURL("/themes/logos/logoBlank.png");
