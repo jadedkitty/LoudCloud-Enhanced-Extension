@@ -78,7 +78,7 @@ element.style {
 a,
 .subtitlePop span,
 .inLP {
-  color: #ffffff !important;
+  color: #e77121 !important;
 }
 
 #chatFrame {
@@ -190,7 +190,7 @@ ul.sortNavlevels .iuDetails.selected,
   background: none repeat scroll 0 0 #393c45 !important;
   border-bottom: 1px solid #e77138 !important;
   border-left: 1px solid #e77138 !important;
-  border-right: 1px solid #e77138 !important;
+  border-right: 1px solid #393c45 !important
 }
 
 .ui-widget .fc-event {
@@ -306,8 +306,9 @@ ul.plannerItemsList li p,
 }
 
 .dataTabl1 th {
-  color: #fff;
-  background: #434653;
+  color: #e77124;
+  background: #34363e;
+  border-bottom: #34363e;
 }
 
 .sortBlueUpBg {
@@ -603,4 +604,26 @@ select {
 .lcs_electronicResHeadInner {
 	background-color: #34363e;
 	border: 1px solid #434653;
+}
+.classScheduleContainer .calMoreBtn {
+	background-color: #393c45;
+	border-color: #393c45;
+}
+.dataTabl28 td {
+	border-bottom: solid 1px #34363e!important;
+}
+.divider1 {
+	border-bottom: solid 1px #34363e!important;
+}
+.desBox {
+	color: #fff;
+}
+.expPanelBox .topicMast1, .forumStatusTop, .expPanel5, .expPanel5:hover, .expPanel4, .expPanel4:hover {
+	border-color: #34363e;
+}
+.borderDiv {
+	margin-bottom: 34363e;
+}
+.dataTabl1 td {
+	border-bottom: #ccc;
 }
