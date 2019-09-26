@@ -21,7 +21,7 @@
     "js": ["loudCloudEnhanced.js"]
   },
   {
-    "matches": ["https://lms-trad.gcu.edu/learningPlatform/user/GCU/*"],
+    "matches": ["https://lms-trad.gcu.edu/learningPlatform/user/GCU/*", "https://lms-trad.gcu.edu/learningPlatform/user/login.lc*"],
     "js": ["loudCloudEnhancedLogin.js"]
   }
 ],
