@@ -459,13 +459,51 @@ ul.chartViewOptions li a span.role_arrow {
 }
 .noNotifications {
 	background: #d50000 none;
-	color: #c7c7c7 !important
+	color: #c7c7c7 !important;
 }
 .lc_notifArea span .lc_countLbl {
 	background: none repeat scroll 0 0 #d50000;
-	color: #c7c7c7  
+	color: #c7c7c7;
 }
 .textField5 {
-    border: none;
-    padding: 4px;
+	border: none;
+	padding: 4px;
+}
+.lcs_userProfileSection h2 {
+	border: none;
+}
+.lcs_userProfileSection h2 a.lcs_profileSectionLink {
+	background: #34363e !important;
+}
+.lcs_userProfileSection h2 a.lcs_profileSectionLink.open {
+	background: #34363e !important;
+}
+.lcs_userProfileSection h2 a.lcs_profileSectionLink .lcs_profileSectionLinkIcon {
+	background: none;
+}
+.profCont label.caption {
+	color: #fff;
+}
+.profCont label, .profCont .profLblCont {
+	color: #fff;
+}
+.contBoxLft .name, .dataTablSml .name {
+	color: #fff;
+}
+.bufferBox {
+	border: 1px solid #34363e
+}
+.bufferBox .bufferBoxInr {
+	background: url("../../images/1568045196802/buffer_bg.png") repeat-y scroll right top #34363e !important;
+	display: inline-block;
+	height: 16px;
+}
+input.textField, input[type="text"], input[type="text"] {
+	border: 1px solid #34363e !important
+}
+.lcs_userProfileSection .profCont {
+	border: none
+}
+.lcs_userProfileFieldGroup {
+	border-bottom: 1px dotted #34363e
 }
