@@ -578,7 +578,7 @@ label.p2 {
 label.p1 {
 	background-color: #BC6666
 }
-.gridbody .row .cell.p3 {
+.gridbody .row .cell.p1 {
 	color: #BC6666
 }
 .cell .lcs_toggleTextScore {
@@ -592,4 +592,15 @@ select {
 .ilpn_listing .gridheader .smartSearchWrap .lc_progressSmartSearch {
 	background-color: #434653;
 	color: #fff;
+}
+.lcs_electronicResHeadInnerLeft {
+	background-color: #34363e;
+	border-right: none;
+}
+.color-notmet {
+	color: #BC6666!important;
+}
+.lcs_electronicResHeadInner {
+	background-color: #34363e;
+	border: 1px solid #434653;
 }
