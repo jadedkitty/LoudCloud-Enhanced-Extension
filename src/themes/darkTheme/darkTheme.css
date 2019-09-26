@@ -627,3 +627,6 @@ select {
 .dataTabl1 td {
 	border-bottom: #ccc;
 }
+.lc_loudHelpUl>li {
+	background-color: #34363e;
+}
