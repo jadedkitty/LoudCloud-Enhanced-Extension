@@ -1,6 +1,6 @@
 body {
   background: #34363e !important;
-  color: #cacaca;
+  color: #fff;
 }
 
 element.style {
@@ -507,4 +507,89 @@ input.textField, input[type="text"], input[type="text"] {
 }
 .lcs_userProfileFieldGroup {
 	border-bottom: 1px dotted #34363e
+}
+.sectionContainer .previewDetails p {
+	color: #fff;
+	margin-bottom: 13px;
+}
+.formLabel {
+	color: #fff;
+}
+.gryTxt {
+	color: #fff;
+}
+.dm-svrepotInner .tptblhed table th {
+	color: #fff;
+}
+.brdCmbBox span {
+	color: #fff!important;
+}
+.ul-list-tymncy, .tinyPreview {
+	color: #fff;
+}
+.pa0 {
+	color: #e77121;
+}
+.lcs_score {
+	color: #e77121;
+}
+.lcs_studentScoreBoxSection {
+	background-color: #34363e;
+	border-radius: 6px 6px 6px 6px;
+	border-color: #e77121;
+}
+.ilpn_listing .gridheader .gridheaderColumnTitle {
+	color:#fff;
+	background-color: #34363e;
+}
+.ilpn_listing .gridheader .left {
+	background-color:#34363e;
+}
+.lc_tableWithBorder tbody tr:nth-of-type(2n+1) td {
+	background-color: #707277;
+}
+.gridbody .row {
+	color:#ADAEB1;
+}
+.gridbody .row .cell {
+	color: #fff;
+}
+.lcs_subtext {
+	color: #fff;
+}
+.cell .subtext {
+	color: #fff;
+}
+.lc_tableWithBorder tbody tr:nth-of-type(2n+2) td {
+	background-color: #34363e;
+}
+label.p3 {
+	background-color: #F0A979;
+}
+.gridbody .row .cell.p3 {
+	color: #F0A979;
+}
+label.p2 {
+	background-color: #679F66;
+}
+.gridbody .row .cell.p2 {
+	color: #679F66;
+}
+label.p1 {
+	background-color: #BC6666
+}
+.gridbody .row .cell.p3 {
+	color: #BC6666
+}
+.cell .lcs_toggleTextScore {
+	background-color: #707277;
+}
+select {
+	background: url(../../images/1568045196802/select_normal.png) 98% center no-repeat #434653;
+	border:	1px solid #34363e;
+	color: #fff;
+}
+.ilpn_listing .gridheader .smartSearchWrap .lc_progressSmartSearch {
+	background-color: #434653;
+	color: #fff;
 }
