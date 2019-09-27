@@ -459,3 +459,26 @@ ul.chartViewOptions li a span.role_arrow {
 h3, .btn_lightBlue, .btn_registerNow, .btn_green, a {
 	font-family: 'OpenSans';
 }
+.btn_lightBlue, .btn_registerNow, .btn_green {
+	background: #e77121 none;
+	border-top: 1px solid #b95c1d;
+	border-bottom: 1px solid #c15f1d;
+	text-shadow: 0 0 0 #a95e2c;
+}
+.lc_loginContent {
+	border-top: 1px solid #e77121;
+}
+.lc_loginContent input.lc_username, .lc_loginContent input.lc_password {
+	background: #984b16 url(https://lms-trad.gcu.edu/learningPlatform/images/1569445563950/login/icons_input.png) no-repeat 14px 0;
+}
+.lc_loginContent input[type="text"], .lc_loginContent input[type="password"] {
+	border-color: #e77121;
+}
+#githubLink {
+	color: #e77121 !important;
+}
+.btn_lightBlue:hover,.btn_registerNow:hover,.btn_green:hover {
+	background:#e88645 none;
+	border-bottom:1px solid #b16838;
+	border-top:1px solid #f18e4c;
+}
