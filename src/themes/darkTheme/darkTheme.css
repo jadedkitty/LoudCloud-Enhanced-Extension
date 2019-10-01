@@ -46,7 +46,8 @@ element.style {
 
 .classScheduleContainer .pagination span.current,
 .classScheduleContainer .caltodayBlock.lc_todayDisabled {
-  background: #23252b !important;
+    background: #e77121 !important;
+	opacity: 100%;
 }
 
 .header .dropdown dt a,
@@ -205,6 +206,7 @@ ul.sortNavlevels .iuDetails.selected,
 .smalTabs h2 {
   border-bottom: 2px solid #393c45;
 }
+.classScheduleContainer .caltodayBlock.lc_todayDisabled,
 .CourseCreationContentRight .sectionHeader,
 .submissionTitle h3,
 .contBoxLft .name,
@@ -405,7 +407,7 @@ ul.chartViewOptions li a span.role_arrow {
 	background-color: #3d404c !important;
 }
 .paginationBig .pagination a {
-	background: none repeat scroll 0 0 #434653;
+	background: #434653;
 }
 .paginationBig .pagination .prev, .paginationBig .pagination .next, .paginationBig .pagination span {
 	border: 1px solid #434653;
