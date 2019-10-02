@@ -295,10 +295,12 @@ ul.sortNavlevels .iuDetails.selected,
 #githubLink {
 	color: ##e77121!important
 }
+
 #noteButton {
 	background-image: url(https://lms-trad.gcu.edu/learningPlatform/images/1568045196802/dashboard/icons_dashboard.png);
 	background-position: -8px -131px!important
 }
+
 .dataTabl1 tr.selected {
 	background: #868ca5!important
 }
@@ -310,9 +312,11 @@ ul.sortNavlevels .iuDetails.selected,
 	background: #282a32;
 	border: 1px solid #1d1e23
 }
+
 .techSendBtn {
 	background: 0 to(#1d1e23))
 }
+
 .popCont>h1,
 .boxy-wrapper .title-bar>h2,
 #popup>h1,
@@ -320,12 +324,14 @@ ul.sortNavlevels .iuDetails.selected,
 #popup3 h1,
 .inLinePopupMain>h1,
 .popCont h1.lcs_popContHeader {
-	background: linear-gradient(tobottom, #43444a0, #282a32100%)!important
+	background: linear-gradient(to bottom, #43444a0, #282a32100%)!important
 }
+
 .CourseCreationContentRight {
 	overflow: hidden!important;
 	z-index: 5
 }
+
 .posFixed {
 	position: relative!important
 }
@@ -336,18 +342,23 @@ ul.sortNavlevels .iuDetails.selected,
 .dm-svrepotInner {
 	border: solid #313131 1px
 }
+
 .dm-svrepotInner .tptblhed table th {
 	background-color: #434653
 }
+
 .dm-svrepotInner .midltblhed table tr:hover {
 	background-color: #434653!important
 }
+
 .midltblhed {
 	border: solid #434653 1px
 }
+
 .dm-svrepotInner .midltblhed table td {
 	border-bottom: dotted #434653 1px
 }
+
 ul.chartViewOptions li a span.role_arrow {
 	border-radius: 7px 7px 7px 7px;
 	border-style: none
@@ -357,9 +368,11 @@ ul.chartViewOptions li a span.role_arrow {
 .paginationBig .pagination span {
 	border: 1px solid #434653
 }
+
 .paginationBig .pagination span {
 	background: none repeat scroll 0 0 #434653
 }
+
 .paginationBig .pagination span.current {
 	background: none repeat scroll 0 0 #292b31
 }
@@ -372,17 +385,21 @@ ul.chartViewOptions li a span.role_arrow {
 	background: no-repeat scroll center -20px #34363e!important;
 	border-color: #34363e
 }
+
 .expPanel4 {
 	background: url(https://lms-trad.gcu.edu/learningPlatform/images/1568045196802/exp-colps3.png) no-repeat scroll center -20px #34363e!important;
 	background-position: center 0;
 	margin-top: 0
 }
+
 .midltblhed .unreadcls td {
 	background-color: #505463
 }
+
 .lc_navArrow:after {
 	border-top-color: #e77124!important
 }
+
 .btn.btn_primary {
 	background: linear-gradient(tobottom, #bf8e5c0, #e77124100%);
 	border: 1px solid #e77124;
@@ -392,6 +409,7 @@ ul.chartViewOptions li a span.role_arrow {
 #coursesMenuOption {
 	border-bottom: 1px solid #e0e0e0
 }
+
 .classWallWrap .grayPostWrap {
 	box-shadow: none!important
 }
@@ -405,22 +423,28 @@ ul.chartViewOptions li a span.role_arrow {
 .sectionContainer h3.sectionSubHeader span {
 	color: #000
 }
+
 .lc_notifArea span .lc_countLbl {
 	background: none repeat scroll 0 0 #d50000
 }
+
 .textField5 {
 	border: none;
 	padding: 4px
 }
+
 .lcs_userProfileSection h2 {
 	border: none
 }
+
 .lcs_userProfileSection h2 a.lcs_profileSectionLink .lcs_profileSectionLinkIcon {
 	background: none
 }
+
 .bufferBox {
-	border: 1px solid #34363e
+  border: 1px solid #34363e
 }
+
 .bufferBox .bufferBoxInr {
 	background: url(../../images/1568045196802/buffer_bg.png) repeat-y scroll right top #34363e!important;
 	display: inline-block;
@@ -431,53 +455,69 @@ input[type="text"],
 input[type="text"] {
 	border: 1px solid #34363e!important
 }
+
 .lcs_userProfileSection .profCont {
-	border: none
+  border: none
 }
+
 .lcs_userProfileFieldGroup {
-	border-bottom: 1px dotted #34363e
+  border-bottom: 1px dotted #34363e
 }
+
 .sectionContainer .previewDetails p {
 	margin-bottom: 13px
 }
+
 .lcs_studentScoreBoxSection {
 	background-color: #34363e;
 	border-color: #e77121;
 	border-radius: 6px 6px 6px 6px
 }
+
 .ilpn_listing .gridheader .gridheaderColumnTitle {
 	background-color: #34363e
 }
+
 .ilpn_listing .gridheader .left {
 	background-color: #34363e
 }
+
 .lc_tableWithBorder tbody tr:nth-of-type(2n+1) td {
 	background-color: #707277
 }
+
 .gridbody .row {
 	color: #ADAEB1
 }
+
 .lc_tableWithBorder tbody tr:nth-of-type(2n+2) td {
 	background-color: #34363e
 }
+
 label.p3 {
 	background-color: #F0A979
 }
+
 .gridbody .row .cell.p3 {
 	color: #F0A979
 }
+
 label.p2 {
 	background-color: #679F66
 }
+
 .gridbody .row .cell.p2 {
 	color: #679F66
 }
+
 label.p1 {
-	background-color: #BC6666
+  background-color: #BC6666
 }
+
 .gridbody .row .cell.p1 {
-	color: #BC6666
+  color: #BC6666
 }
+
 .cell .lcs_toggleTextScore {
 	background-color: #707277
 }
@@ -485,39 +525,50 @@ label.p1 {
 	background: url(../../images/1568045196802/select_normal.png) 98% center no-repeat #434653;
 	border: 1px solid #34363e
 }
+
 .ilpn_listing .gridheader .smartSearchWrap .lc_progressSmartSearch {
 	background-color: #434653
 }
+
 .lcs_electronicResHeadInnerLeft {
 	background-color: #34363e;
 	border-right: none
 }
+
 .color-notmet {
 	color: #BC6666!important
 }
+
 .lcs_electronicResHeadInner {
 	background-color: #34363e;
 	border: 1px solid #434653
 }
+
 .classScheduleContainer .calMoreBtn {
 	background-color: #393c45;
 	border-color: #393c45
 }
+
 .dataTabl28 td {
 	border-bottom: solid 1px #34363e!important
 }
+
 .divider1 {
 	border-bottom: solid 1px #34363e!important
 }
+
 .borderDiv {
 	margin-bottom: 34363px
 }
+
 .dataTabl1 td {
 	border-bottom: #ccc
 }
+
 .lc_loudHelpUl>li {
 	background-color: #34363e
 }
+
 .currentSubmission {
 	background: #2d2f35 none;
 	border: 1px solid #3f424a;
