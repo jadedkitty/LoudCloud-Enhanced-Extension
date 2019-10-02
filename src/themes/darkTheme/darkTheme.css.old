@@ -1,0 +1,745 @@
+body {
+  background: #34363e !important;
+}
+
+element.style {
+  margin: 0;
+  font: normal 12px "Trebuchet MS";
+  color: #121212;
+  background: #34363e
+}
+
+#headerId {
+  background=#434653;
+}
+
+.lc_navIcons dashboardIco {
+  background: url("https://i.imgur.com/RqBuY1S.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.lc_header,
+.lc_navigation,
+.lc_navigation,
+.lc_selectLi,
+.lc_groupMenu .lc_navHasChild,
+.lc_selectLi,
+.headerMast,
+#headerId,
+#messagesMenuOption,
+.headerMast,
+.lc_selectLi .lc_groupMenu lc_navHasChild,
+.lc_navigation,
+.accordion>h3,
+.accordion .lc_accordionMainHdr>h3 {
+  background: #434653 !important;
+}
+
+.lc_navBar,
+.lc_navDiv {
+  background: none repeat scroll 0 0 #0000 !important;
+}
+
+.lc_navBar .lc_pathLi {
+  background: #4e515c !important;
+}
+
+.classScheduleContainer .pagination span.current,
+.classScheduleContainer .caltodayBlock.lc_todayDisabled {
+  background: #e77121 !important;
+  opacity: 100%;
+}
+
+.header .dropdown dt a,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus,
+.role_arrow {
+  background-color: #3d404c !important;
+}
+
+.role_arrow {
+
+  border: none;
+}
+
+#logoImg {
+  background: url("../logos/logoEnhanced.png") no-repeat;
+  opacity: 1;
+  transition: .25s ease-in-out;
+}
+
+#logoImg:hover {
+  background: url("../logos/whiteGCULogo.png") no-repeat;
+}
+
+.lc_navIcons {
+  filter: saturate(0%);
+}
+
+a,
+.subtitlePop span,
+.inLP {
+  color: #e77121 !important;
+}
+
+#chatFrame {
+  filter: invert(75%);
+}
+
+.header .dropdown2 span.role_arrow,
+.header .dropdown span.role_arrow {
+  border: none;
+  transition: .1s ease-in-out;
+}
+
+.header .dropdown .active span.role_arrow,
+.header .dropdown dt a:hover span.role_arrow {
+  background-position: -7px -345px;
+  border: none;
+}
+
+#roles dd span.role_arrow:hover,
+#roles dd span.role_arrow.active {
+  background: url("../../images/1568045196802/icons_flat.png") no-repeat scroll -7px -314px #fcfdfc;
+}
+
+.lc_loginContainer {
+  background: #1e2025 !important;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.34);
+}
+
+.lcs_scrollingPathList {
+  background: #1d1e23;
+}
+
+.sortNavCriteria.selected,
+.sortNavCriteria.selected:hover {
+  background: #50535e;
+}
+
+.sortNavCriteria.sortArrowUp {
+  background: #2d2f35;
+}
+
+.tabsCont {
+  background: #222429;
+}
+
+.ul-list-tymncy,
+.tinyPreview {
+  color: #e2e2e2;
+}
+
+.CourseCreationContentRight .sectionHeader {
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.75);
+}
+
+ul.sortNavlevels .iuDetails.selected,
+.iuDetails.sortArrowUp.selected {
+  background-color: #000;
+}
+
+.formLabel {
+  color: #cacaca;
+}
+
+.CourseCreationContentLeft {
+  background: #222429 none;
+}
+
+.lc_navBarInner {
+  background: none repeat scroll 0 0 #434653;
+}
+
+.lc_selectLi:hover {
+  background: #34363e !important;
+}
+
+.lc-hom-box .lc-hom-headr {
+  background-color: #434653 !important;
+  background-image: none !important;
+}
+
+.tabsCont {
+  background: #434653;
+}
+
+.tabsCont {
+  border-left: 1px solid #313131;
+  border-right: 1px solid #313131;
+}
+
+.dashBrd-options>a,
+.searchIcon,
+.help,
+.signout,
+.smallLoader {
+  filter: invert(75%) !important;
+}
+
+.lc_paginationDv {
+  background: none repeat scroll 0 0 #34363ea8 !important;
+  border-bottom: 4px solid #353535;
+}
+
+.ui-widget-content {
+  border: 1px solid #34363e !important;
+  background: #434653;
+}
+
+.classScheduleContainer .fc-today {
+  background: none repeat scroll 0 0 #393c45 !important;
+  border-bottom: 1px solid #e77138 !important;
+  border-left: 1px solid #e77138 !important;
+  border-right: 1px solid #393c45 !important
+}
+
+.ui-widget .fc-event {
+  background-color: #34363e !important;
+  border-color: #434653 !important;
+}
+
+.smalTabs .midBox {
+  background: #434653;
+}
+
+.smalTabs h2 {
+  border-bottom: 2px solid #393c45;
+}
+
+body,
+.rubric_splitButton label span,
+.desBox,
+.ilpn_listing .gridheader .smartSearchWrap .lc_progressSmartSearch,
+select,
+.cell .subtext,
+.lcs_subtext,
+.gridbody .row .cell,
+.ilpn_listing .gridheader .gridheaderColumnTitle,
+.ul-list-tymncy,
+.tinyPreview,
+.brdCmbBox span,
+.dm-svrepotInner .tptblhed table th,
+.gryTxt,
+.formLabel,
+.sectionContainer .previewDetails p,
+.contBoxLft .name,
+.dataTablSml .name,
+.profCont label,
+.profCont .profLblCont,
+.profCont label.caption,
+.dark-green-circle,
+.lc_colYellow.showToolTip .lc_contTitleLbl,
+.lc_colYellow.showToolTip .lc_classCode,
+.classScheduleContainer .caltodayBlock.lc_todayDisabled,
+.CourseCreationContentRight .sectionHeader,
+.submissionTitle h3,
+.contBoxLft .name,
+.dm-svrepotInner .midltblhed table td,
+.lc_techSupportTitle h4,
+.lc_infoTable td,
+.acordianBx .acrdBxdesing .acrdHeader span,
+.acordianBx .acrdBxdesing ul li,
+.header .dropdown dd ul li a.subLinkDDTop:hover,
+.header .dropdown2 dd ul li a.subLinkDDTop:hover,
+.header .dropdown dd ul li strong.subLinkDDTop,
+.header .dropdown2 dd ul li strong.subLinkDDTop,
+.dashboard-box-black .red-circle .circular-loader-inner,
+.classScheduleContainer .paginationWrap .weekCounter,
+.calendarTitleNew,
+.sectionHeader h2,
+.selected_role,
+.lc_navBarTitle,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus,
+.header .dropdown dt a,
+.header .dropdown2 dt a:hover,
+.header .dropdown2 dt a:focus,
+.header .dropdown2 dt a,
+.header .dropdown dt em,
+.header .dropdown2 dt em,
+ul.plannerItemsList li h3,
+ul.plannerItemsList li p,
+.calSmlBox,
+.captionsubhead,
+.classScheduleContainer .ui-widget-header,
+.lc_colGrey.showToolTip .lc_contTitleLbl,
+.lc_colGrey.showToolTip .lc_classCode,
+.classScheduleContainer .pagination span,
+#selectedNavTitle {
+  color: #fff !important;
+}
+
+.acordianBx .acrdBxdesing .acrdHeader span {
+  text-shadow: none !important;
+}
+
+.ui-widget-header {
+  background: #34363e;
+  border: 1px solid #34363e !important;
+}
+
+.loader_grey {
+  background: none repeat scroll 0 0 #25262b !important;
+}
+
+.qtip.qtip-defaults {
+  box-shadow: 0 1px 15px 0 #00000040 !important;
+}
+
+.smalTabs .midBox {
+  border: none !important;
+  box-shadow: 0 1px 15px 0 #00000010 !important;
+}
+
+.classScheduleContainer .fc-event {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+.lc_logoBrdr {
+  margin: 11px 5px 0 16px !important;
+}
+
+.dark-green-circle .circular-loader-inner {
+  background: #34363eb8 none;
+}
+
+.dark-green-circle {
+  background: #e77121;
+}
+
+#enhancedFooter {
+  float: center;
+  color: #c2c2c2;
+  text-shadow: 1px 1px #d50000;
+}
+
+#clock,
+#footerDate {
+  float: right;
+  text-align: right;
+}
+
+.header .dropdown dt a,
+.header .dropdown dt a:hover,
+.header .dropdown dt a:focus {
+  border: 1px solid #34363e;
+}
+
+.header .dropdown dd ul {
+  box-shadow: 0 1px 15px 0 #00000010 !important;
+  background: #34363e;
+
+}
+
+.dataTabl1 th {
+  color: #e77124;
+  background: #434653;
+  border-bottom: #34363e;
+}
+
+.sortBlueUpBg {
+  background: #434653 !important;
+}
+
+.desBox,
+.chartViewOptions.cbl_menuTabs li a:hover,
+.chartViewOptions.cbl_menuTabs li a.selected {
+  background: #34363e;
+}
+
+.event-type.class {
+  background: #d50000 none;
+  color: #c7c7c7;
+}
+
+.filesUploadedHeader {
+  background-color: #2d2f35;
+  border: none;
+  box-shadow: 0 1px 15px 0 #00000040 !important;
+}
+
+.tac-progress-done {
+  background: #e77121;
+}
+
+#githubLink {
+  color: ##e77121 !important;
+}
+
+#noteButton {
+  background-position: -8px -131px !important;
+  background-image: url(https://lms-trad.gcu.edu/learningPlatform/images/1568045196802/dashboard/icons_dashboard.png);
+}
+
+.dataTabl1 tr.selected {
+  background: #868ca5 !important;
+}
+
+.lc_contentHeader,
+.tabsTop,
+.tabsTopRight {
+  background: #434653 !important;
+}
+
+.tchSupportHead,
+.inLinePopupMain {
+  background: #303238 none !important;
+}
+
+.buttonRow {
+  background: #282a32;
+  border: 1px solid #1d1e23;
+}
+
+.techSendBtn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#303238), to(#1d1e23));
+}
+
+.popCont>h1,
+.boxy-wrapper .title-bar>h2,
+#popup>h1,
+#popup2>h1,
+#popup3 h1,
+.inLinePopupMain>h1,
+.popCont h1.lcs_popContHeader {
+  background: linear-gradient(to bottom, #43444a 0, #282a32 100%) !important;
+}
+
+.CourseCreationContentRight {
+  overflow: hidden !important;
+  z-index: 5;
+}
+
+.posFixed {
+  position: relative !important;
+}
+
+.lcs_scrollingPathList {
+  z-index: 3;
+}
+
+.dm-svrepotInner,
+.dm-svrepotInner .midltblhed table tr:nth-child(even) {
+  background-color: #34363e !important;
+}
+
+.dm-svrepotInner {
+  border: solid #313131 1px;
+}
+
+.dm-svrepotInner .tptblhed table th {
+  background-color: #434653;
+}
+
+.dm-svrepotInner .midltblhed table tr:hover {
+  background-color: #434653 !important;
+}
+
+.midltblhed {
+  border: solid #434653 1px;
+}
+
+.dm-svrepotInner .midltblhed table td {
+  border-bottom: dotted #434653 1px;
+}
+
+ul.chartViewOptions li a span.role_arrow {
+  border-style: none;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.role_arrow {
+  background-color: #3d404c !important;
+}
+
+.paginationBig .pagination a {
+  background: #434653;
+}
+
+.paginationBig .pagination .prev,
+.paginationBig .pagination .next,
+.paginationBig .pagination span {
+  border: 1px solid #434653;
+}
+
+.paginationBig .pagination span {
+  background: none repeat scroll 0 0 #434653;
+}
+
+.paginationBig .pagination span.current {
+  background: none repeat scroll 0 0 #292b31;
+}
+
+.expPanelBox .topicMast1,
+.forumStatusTop,
+.expPanel5,
+.expPanel5:hover,
+.expPanel4,
+.expPanel4:hover {
+  background: no-repeat scroll center -20px #34363e !important;
+}
+
+.expPanel4 {
+  margin-top: 0;
+  background-position: center 0;
+  background: url(https://lms-trad.gcu.edu/learningPlatform/images/1568045196802/exp-colps3.png) no-repeat scroll center -20px #34363e !important;
+  ;
+}
+
+.midltblhed .unreadcls td {
+  background-color: #505463;
+}
+
+.chartViewOptions.cbl_menuTabs li a:hover,
+.chartViewOptions.cbl_menuTabs li a.selected {
+  color: #e77121 !important;
+}
+
+.lc_navArrow:after {
+  border-top-color: #e77124 !important;
+}
+
+.lc_rosterSearchResult {
+  background: #434653 !important;
+}
+
+.btn.btn_primary {
+  background: linear-gradient(to bottom, #bf8e5c 0, #e77124 100%);
+  border: 1px solid #e77124;
+  text-shadow: 2px 1px 0 #e77124 !important;
+}
+
+#calendarMenuoption,
+#coursesMenuOption {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.classWallWrap .grayPostWrap {
+  background: #34363e;
+  box-shadow: none !important;
+}
+
+.lc_wrapperTabsContent .post_tab ul li a,
+.lc_wrapperTabsContent .button-group a {
+  background: #34363e none;
+  border-right: 1px solid #4e515c;
+  border-bottom: 2px solid #4e515c;
+  border-top: 2px solid #4e515c;
+}
+
+.sectionContainer h3.sectionSubHeader {
+  filter: invert(75%);
+  color: #000;
+}
+
+.sectionContainer h3.sectionSubHeader span {
+  color: #000;
+}
+
+.noNotifications {
+  background: #d50000 none;
+  color: #c7c7c7 !important;
+}
+
+.lc_notifArea span .lc_countLbl {
+  background: none repeat scroll 0 0 #d50000;
+  color: #c7c7c7;
+}
+
+.textField5 {
+  border: none;
+  padding: 4px;
+}
+
+.lcs_userProfileSection h2 {
+  border: none;
+}
+
+.lcs_userProfileSection h2 a.lcs_profileSectionLink {
+  background: #34363e !important;
+}
+
+.lcs_userProfileSection h2 a.lcs_profileSectionLink.open {
+  background: #34363e !important;
+}
+
+.lcs_userProfileSection h2 a.lcs_profileSectionLink .lcs_profileSectionLinkIcon {
+  background: none;
+}
+
+.bufferBox {
+  border: 1px solid #34363e
+}
+
+.bufferBox .bufferBoxInr {
+  background: url("../../images/1568045196802/buffer_bg.png") repeat-y scroll right top #34363e !important;
+  display: inline-block;
+  height: 16px;
+}
+
+input.textField,
+input[type="text"],
+input[type="text"] {
+  border: 1px solid #34363e !important
+}
+
+.lcs_userProfileSection .profCont {
+  border: none
+}
+
+.lcs_userProfileFieldGroup {
+  border-bottom: 1px dotted #34363e
+}
+
+.sectionContainer .previewDetails p {
+  margin-bottom: 13px;
+}
+
+.pa0 {
+  color: #e77121;
+}
+
+.lcs_score {
+  color: #e77121;
+}
+
+.lcs_studentScoreBoxSection {
+  background-color: #34363e;
+  border-radius: 6px 6px 6px 6px;
+  border-color: #e77121;
+}
+
+.ilpn_listing .gridheader .gridheaderColumnTitle {
+  background-color: #34363e;
+}
+
+.ilpn_listing .gridheader .left {
+  background-color: #34363e;
+}
+
+.lc_tableWithBorder tbody tr:nth-of-type(2n+1) td {
+  background-color: #707277;
+}
+
+.gridbody .row {
+  color: #ADAEB1;
+}
+
+.lc_tableWithBorder tbody tr:nth-of-type(2n+2) td {
+  background-color: #34363e;
+}
+
+label.p3 {
+  background-color: #F0A979;
+}
+
+.gridbody .row .cell.p3 {
+  color: #F0A979;
+}
+
+label.p2 {
+  background-color: #679F66;
+}
+
+.gridbody .row .cell.p2 {
+  color: #679F66;
+}
+
+label.p1 {
+  background-color: #BC6666
+}
+
+.gridbody .row .cell.p1 {
+  color: #BC6666
+}
+
+.cell .lcs_toggleTextScore {
+  background-color: #707277;
+}
+
+.select {
+  background: url(../../images/1568045196802/select_normal.png) 98% center no-repeat #434653;
+  border: 1px solid #34363e;
+}
+
+.ilpn_listing .gridheader .smartSearchWrap .lc_progressSmartSearch {
+  background-color: #434653;
+}
+
+.lcs_electronicResHeadInnerLeft {
+  background-color: #34363e;
+  border-right: none;
+}
+
+.color-notmet {
+  color: #BC6666 !important;
+}
+
+.lcs_electronicResHeadInner {
+  background-color: #34363e;
+  border: 1px solid #434653;
+}
+
+.classScheduleContainer .calMoreBtn {
+  background-color: #393c45;
+  border-color: #393c45;
+}
+
+.dataTabl28 td {
+  border-bottom: solid 1px #34363e !important;
+}
+
+.divider1 {
+  border-bottom: solid 1px #34363e !important;
+}
+
+.expPanelBox .topicMast1,
+.forumStatusTop,
+.expPanel5,
+.expPanel5:hover,
+.expPanel4,
+.expPanel4:hover {
+  border-color: #34363e;
+}
+
+.borderDiv {
+  margin-bottom: 34363e;
+}
+
+.dataTabl1 td {
+  border-bottom: #ccc;
+}
+
+.lc_loudHelpUl>li {
+  background-color: #34363e;
+}
+
+.currentSubmission {
+  background: #2d2f35 none;
+  box-shadow: 0 1px 15px 0 #00000040 !important;
+  border: 1px solid #3f424a;
+}
+
+.rubric_splitButton label,
+.rubric_splitButton a.r_splitArrow {
+  background: linear-gradient(to bottom, rgb(255, 137, 36) 0, rgb(192, 88, 0) 100%);
+  border: 1px solid #b1560a;
+}
+
+.rubric_splitButton label:hover,
+.rubric_splitButton a.r_splitArrow:hover,
+.rubric_splitButton label.active,
+.rubric_splitButton a.r_splitArrow.active {
+  border: 1px solid #afc8dd;
+  background: linear-gradient(to bottom, rgb(232, 151, 82) 0, rgb(222, 127, 47) 100%) !important;
+}
+
+.top-nav-tab .counter,
+.filesUploadedHeader .counter {
+  background: none repeat scroll 0 0 #de7011;
+}
+
+.sortNavCriteria.sortArrowUp {
+  background: #323740;
+}
