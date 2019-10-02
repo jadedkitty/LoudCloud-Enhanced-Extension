@@ -71,7 +71,8 @@ ul.plannerItemsList li p,
 .lc_colGrey.showToolTip .lc_contTitleLbl,
 .lc_colGrey.showToolTip .lc_classCode,
 .classScheduleContainer .pagination span,
-#selectedNavTitle {
+#selectedNavTitle,
+.selfSubTlt {
 	color: #fff!important
 }
 .lc_header,
@@ -105,7 +106,7 @@ ul.plannerItemsList li p,
 	background: none repeat scroll 0 0 #0000!important
 }
 .lc_navBar .lc_pathLi {
-	background: #4e515c!important
+	background: #434653!important
 }
 .classScheduleContainer .pagination span.current,
 .classScheduleContainer .caltodayBlock.lc_todayDisabled,
@@ -118,7 +119,7 @@ ul.plannerItemsList li p,
 .header .dropdown dt a:hover,
 .header .dropdown dt a:focus,
 .role_arrow {
-	background-color: #3d404c!important
+	background-color: #434653!important
 }
 .role_arrow {
 	border: none
@@ -157,25 +158,28 @@ a,
 #roles dd span.role_arrow.active {
 	background: url(https://lms-trad.gcu.edu/learningPlatform/images/1569445563950/icons_flat.png) no-repeat scroll -7px -314px #fcfdfc
 }
+.lc_loginContainer,
+.lcs_scrollingPathList,
+.tabsCont,
+.buttonRow {
+	background: #434653!important;
+}
 .lc_loginContainer {
-	background: #1e2025!important;
 	box-shadow: 0 1px 9px rgba(0, 0, 0, 0.34)
 }
 .lcs_scrollingPathList {
-	background: #1d1e23;
 	z-index: 3
 }
 .sortNavCriteria.selected,
 .sortNavCriteria.selected:hover {
-	background: #50535e
+	background: #434653
 }
 .sortNavCriteria.sortArrowUp {
-	background: #323740
+	background: #34363e
 }
 .tabsCont {
-	background: #222429;
-	border-left: 1px solid #313131;
-	border-right: 1px solid #313131
+	border-left: 1px solid #434653;
+	border-right: 1px solid #434653
 }
 .ul-list-tymncy,
 .tinyPreview {
@@ -186,13 +190,13 @@ a,
 }
 ul.sortNavlevels .iuDetails.selected,
 .iuDetails.sortArrowUp.selected {
-	background-color: #000
+	background-color: #50535e
 }
 .formLabel {
 	color: #cacaca
 }
 .CourseCreationContentLeft {
-	background: #222429 none
+	background: #34363e none
 }
 .lc_navBarInner {
 	background: none repeat scroll 0 0 #434653
@@ -218,17 +222,17 @@ ul.sortNavlevels .iuDetails.selected,
 	border: 1px solid #34363e!important
 }
 .classScheduleContainer .fc-today {
-	background: none repeat scroll 0 0 #393c45!important;
-	border-bottom: 1px solid #e77138!important;
-	border-left: 1px solid #e77138!important;
-	border-right: 1px solid #393c45!important
+	background: none repeat scroll 0 0 #34363e!important;
+	border-bottom: 1px solid #e77121!important;
+	border-left: 1px solid #e77121!important;
+	border-right: 1px solid #34363e!important
 }
 .ui-widget .fc-event {
 	background-color: #34363e!important;
 	border-color: #434653!important
 }
 .smalTabs h2 {
-	border-bottom: 2px solid #393c45
+	border-bottom: 2px solid #34363e
 }
 .acordianBx .acrdBxdesing .acrdHeader span {
 	text-shadow: none!important
@@ -237,10 +241,16 @@ ul.sortNavlevels .iuDetails.selected,
 	border: 1px solid #34363e!important
 }
 .loader_grey {
-	background: none repeat scroll 0 0 #25262b!important
+	background: none repeat scroll 0 0 #34363e!important
 }
 .qtip.qtip-defaults {
 	box-shadow: 0 1px 15px 0 #00000040!important
+}
+.tabs {
+	box-shadow: 0 1px 15px 0 #00000010!important
+}
+.iuDetails.sortArrowUp:hover {
+	background-color:#34363e
 }
 .smalTabs .midBox {
 	border: none!important;
@@ -276,7 +286,7 @@ ul.sortNavlevels .iuDetails.selected,
 }
 .dataTabl1 th {
 	border-bottom: #34363e;
-	color: #e77124
+	color: #e77121
 }
 .noNotifications,
 .event-type.class,
@@ -288,7 +298,7 @@ ul.sortNavlevels .iuDetails.selected,
 	background: #d50000 none
 }
 .filesUploadedHeader {
-	background-color: #2d2f35;
+	background-color: #34363e;
 	border: none;
 	box-shadow: 0 1px 15px 0 #00000040!important
 }
@@ -306,15 +316,14 @@ ul.sortNavlevels .iuDetails.selected,
 }
 .tchSupportHead,
 .inLinePopupMain {
-	background: #303238 none!important
+	background: #34363e none!important
 }
 .buttonRow {
-	background: #282a32;
-	border: 1px solid #1d1e23
+	border: 1px solid #34363e
 }
 
 .techSendBtn {
-	background: 0 to(#1d1e23))
+	background: 0 to(#34363e))
 }
 
 .popCont>h1,
@@ -374,7 +383,7 @@ ul.chartViewOptions li a span.role_arrow {
 }
 
 .paginationBig .pagination span.current {
-	background: none repeat scroll 0 0 #292b31
+	background: none repeat scroll 0 0 #34363e
 }
 .expPanelBox .topicMast1,
 .forumStatusTop,
@@ -397,13 +406,13 @@ ul.chartViewOptions li a span.role_arrow {
 }
 
 .lc_navArrow:after {
-	border-top-color: #e77124!important
+	border-top-color: #e77121!important
 }
 
 .btn.btn_primary {
-	background: linear-gradient(tobottom, #bf8e5c0, #e77124100%);
-	border: 1px solid #e77124;
-	text-shadow: 2px 1px 0 #e77124!important
+	background: linear-gradient(tobottom, #bf8e5c0, #e77121100%);
+	border: 1px solid #e77121;
+	text-shadow: 2px 1px 0 #e77121!important
 }
 #calendarMenuoption,
 #coursesMenuOption {
@@ -415,9 +424,9 @@ ul.chartViewOptions li a span.role_arrow {
 }
 .lc_wrapperTabsContent .post_tab ul li a,
 .lc_wrapperTabsContent .button-group a {
-	border-bottom: 2px solid #4e515c;
-	border-right: 1px solid #4e515c;
-	border-top: 2px solid #4e515c
+	border-bottom: 2px solid #434653;
+	border-right: 1px solid #434653;
+	border-top: 2px solid #434653
 }
 .sectionContainer h3.sectionSubHeader,
 .sectionContainer h3.sectionSubHeader span {
@@ -545,8 +554,8 @@ label.p1 {
 }
 
 .classScheduleContainer .calMoreBtn {
-	background-color: #393c45;
-	border-color: #393c45
+	background-color: #34363e;
+	border-color: #34363e
 }
 
 .dataTabl28 td {
@@ -570,14 +579,14 @@ label.p1 {
 }
 
 .currentSubmission {
-	background: #2d2f35 none;
-	border: 1px solid #3f424a;
+	background: #34363e none;
+	border: 1px solid #34363e;
 	box-shadow: 0 1px 15px 0 #00000040!important
 }
 .rubric_splitButton label,
 .rubric_splitButton a.r_splitArrow {
 	background: linear-gradient(to bottom, rgb(255, 137, 36) 0, rgb(192, 88, 0) 100%);
-	border: 1px solid #b1560a;
+	border: 1px solid #e77121;
 }
 .rubric_splitButton label:hover,
 .rubric_splitButton a.r_splitArrow:hover,
@@ -588,5 +597,5 @@ label.p1 {
 }
 .top-nav-tab .counter,
 .filesUploadedHeader .counter {
-	background: none repeat scroll 0 0 #de7011
+	background: none repeat scroll 0 0 #e77121
 }

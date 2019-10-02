@@ -7,7 +7,7 @@ style.href = chrome.extension.getURL( '/themes/darkTheme/darkTheme.css' );
 //injects modified javascript (broken)
 /* var script = document.createElement( 'script' );
 script.type = 'text/javascript';
-script.src = chrome.extension.getURL( '/lmsjs/users.js' );
+script.src = chrome.extension.getURL( '/modifiedlmsjs/users.js' );
 ( document.head || document.documentElement ).appendChild( script );
 */
 var logoURL = chrome.extension.getURL( "/themes/logos/logoBlank.png" );
