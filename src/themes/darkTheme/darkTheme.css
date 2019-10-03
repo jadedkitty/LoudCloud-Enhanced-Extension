@@ -597,5 +597,13 @@ label.p1 {
 }
 .top-nav-tab .counter,
 .filesUploadedHeader .counter {
-	background: none repeat scroll 0 0 #e77121
+	background: none repeat scroll 0 0 #e77121;
+}
+.lc_nextContentIco,
+.lc_prevContentIco {
+	filter: invert(75%)!important;
+}
+
+ul.sortNavlevels li a:hover {
+	background-color: #34363e;
 }
