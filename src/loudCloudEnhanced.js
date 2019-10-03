@@ -4,12 +4,7 @@ style.rel = 'stylesheet';
 style.type = 'text/css';
 style.href = chrome.extension.getURL( '/themes/darkTheme/darkTheme.css' );
 ( document.head || document.documentElement ).appendChild( style );
-//injects modified javascript (broken)
-/* var script = document.createElement( 'script' );
-script.type = 'text/javascript';
-script.src = chrome.extension.getURL( '/modifiedlmsjs/users.js' );
-( document.head || document.documentElement ).appendChild( script );
-*/
+
 var logoURL = chrome.extension.getURL( "/themes/logos/logoBlank.png" );
 //replaces communities widget contents with chat iframe
 function addChat() {
