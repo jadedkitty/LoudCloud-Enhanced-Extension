@@ -408,12 +408,6 @@ ul.chartViewOptions li a span.role_arrow {
 .lc_navArrow:after {
 	border-top-color: #e77121!important
 }
-
-.btn.btn_primary {
-	background: linear-gradient(tobottom, #bf8e5c0, #e77121100%);
-	border: 1px solid #e77121;
-	text-shadow: 2px 1px 0 #e77121!important
-}
 #calendarMenuoption,
 #coursesMenuOption {
 	border-bottom: 1px solid #e0e0e0
@@ -584,7 +578,8 @@ label.p1 {
 	box-shadow: 0 1px 15px 0 #00000040!important
 }
 .rubric_splitButton label,
-.rubric_splitButton a.r_splitArrow {
+.rubric_splitButton a.r_splitArrow,
+.btn.btn_primary {
 	background: linear-gradient(to bottom, rgb(255, 137, 36) 0, rgb(192, 88, 0) 100%);
 	border: 1px solid #e77121;
 }
@@ -603,7 +598,10 @@ label.p1 {
 .lc_prevContentIco {
 	filter: invert(75%)!important;
 }
-
 ul.sortNavlevels li a:hover {
 	background-color: #34363e;
+}
+.acordianBx .acrdBxdesing ul li.leftPd a:hover,
+.acordianBx .acrdBxdesing ul li a:hover {
+	background-color: #34363e!important;
 }
