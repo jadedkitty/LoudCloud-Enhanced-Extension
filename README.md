@@ -22,6 +22,7 @@ This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode f
 Gource is a visualization tool for git repos. You can see the latest gource for this repo [here](https://youtu.be/2TIBcEnUjRI)
 
 ## Disclaimer:
+# This extension is in no way affiliated or sponsored by Grand Canyon University, Grand Canyon Education, Barnes and Noble Education, or any schools or companies related to the development and use of the BNED LoudCloud platform.
 Users who utilize this extension accept that it is done so at their own risk, caution is reccommended.  
 We (the developers of the extension) are not responsible for errors in assignments, maulfunctioning quizzes, thermonuclear war, or you getting dropped from your class because your class wall post didn't go through.  
 Please do some research or examine the code if you have any concerns about features included in the extension before installing it!  
