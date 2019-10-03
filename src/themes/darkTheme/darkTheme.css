@@ -605,3 +605,9 @@ ul.sortNavlevels li a:hover {
 .acordianBx .acrdBxdesing ul li a:hover {
 	background-color: #34363e!important;
 }
+.buttonRow1 input[type="button"] {
+	background: linear-gradient(to bottom, #A9AAAD 0, #707277 100%);
+	border: 1px solid #707277;
+	color: #fff!important;
+	text-shadow: 2px 1px 0 #4996cd!important
+}
