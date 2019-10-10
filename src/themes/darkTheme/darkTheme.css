@@ -12,6 +12,15 @@ body,
 .lcs_userProfileSection h2 a.lcs_profileSectionLink.open {
 	background: #34363e!important
 }
+.lc_colViolet.showToolTip .lc_contTitleLbl,
+.lc_colViolet.showToolTip .lc_classCode,
+.lc_colBlue.showToolTip .lc_contTitleLbl,
+.lc_colBlue.showToolTip .lc_classCode,
+.documentListElement .similar>strong,
+.createCourseTable.styleTable td,
+.buttonRow1 input[type="button"],
+.multiSelectBtn,
+.btn,
 body,
 .rubric_splitButton label span,
 .desBox,
@@ -611,7 +620,6 @@ ul.sortNavlevels li a:hover {
 .buttonRow1 input[type="button"] {
 	background: linear-gradient(to bottom, #A9AAAD 0, #707277 100%);
 	border: 1px solid #707277;
-	color: #fff!important;
 	text-shadow: 2px 1px 0 #4996cd!important
 }
 .lc_popBoxyContent, .dm-popupmiddle, .lc_loginTermsAndCondDv {
@@ -634,18 +642,10 @@ ul.sortNavlevels li a:hover {
 .boxy-wrapper .top-right, .boxy-wrapper .bottom, .boxy-wrapper .top-left  {
 	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important;
 }
-.lc_colViolet.showToolTip .lc_contTitleLbl,
-.lc_colViolet.showToolTip .lc_classCode,
-.lc_colBlue.showToolTip .lc_contTitleLbl,
-.lc_colBlue.showToolTip .lc_classCode,
-.documentListElement .similar>strong {
-	color: #fff;
-}
 .createCourseTable.styleTable .tableSubHeader td {
 	background-color: #434653;
 }
 .createCourseTable.styleTable td {
-	color: #fff;
 	background-color:#434653;
 }
 .createCourseTable tr:hover td {
@@ -657,6 +657,8 @@ ul.sortNavlevels li a:hover {
 .multiSelectBtn {
 	background: linear-gradient(to bottom, #A9AAAD 0, #707277 100%);
 	border: 1px solid #707277;
-	color: #fff!important;
-	text-shadow: 2px 1px 0 #fff!important
+	text-shadow: none
+}
+.btn, .boxy-wrapper .answers input[type=button] {
+    text-shadow: none!important;
 }
