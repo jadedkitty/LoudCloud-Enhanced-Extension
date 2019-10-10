@@ -643,7 +643,7 @@ ul.sortNavlevels li a:hover {
 	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important;
 }
 .createCourseTable.styleTable .tableSubHeader td {
-	background-color: #434653;
+    background-color: #34363e;
 }
 .createCourseTable.styleTable td {
 	background-color:#434653;
@@ -659,6 +659,11 @@ ul.sortNavlevels li a:hover {
 	border: 1px solid #707277;
 	text-shadow: none
 }
+.btn.btn_primary,
 .btn, .boxy-wrapper .answers input[type=button] {
-    text-shadow: none!important;
+    text-shadow: none !important;
+}
+.createCourseTable.styleTable .tableSubHeader td:hover,
+.tableSubHeader:hover {
+    background: #434653 !important;
 }
