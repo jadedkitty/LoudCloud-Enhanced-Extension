@@ -621,3 +621,42 @@ ul.sortNavlevels li a:hover {
 	/* filter: invert(110%)!important; */
 	  filter: invert(1) brightness(60%) sepia(20%) saturate(900%);
 }
+.popCont input.button {
+	background: linear-gradient(to bottom, rgb(255, 137, 36) 0, rgb(192, 88, 0) 100%);
+	border: 1px solid #e77121;
+}
+.popupForums {
+	background-color: #434653;
+}
+.boxy-content {
+	background-color: #434653;
+}
+.boxy-wrapper .top-right, .boxy-wrapper .bottom, .boxy-wrapper .top-left  {
+	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important;
+}
+.lc_colViolet.showToolTip .lc_contTitleLbl,
+.lc_colViolet.showToolTip .lc_classCode,
+.lc_colBlue.showToolTip .lc_contTitleLbl,
+.lc_colBlue.showToolTip .lc_classCode,
+.documentListElement .similar>strong {
+	color: #fff;
+}
+.createCourseTable.styleTable .tableSubHeader td {
+	background-color: #434653;
+}
+.createCourseTable.styleTable td {
+	color: #fff;
+	background-color:#434653;
+}
+.createCourseTable tr:hover td {
+	background-color: #e771218c;
+}
+.styleTable {
+	border: 0px
+}
+.multiSelectBtn {
+	background: linear-gradient(to bottom, #A9AAAD 0, #707277 100%);
+	border: 1px solid #707277;
+	color: #fff!important;
+	text-shadow: 2px 1px 0 #fff!important
+}
