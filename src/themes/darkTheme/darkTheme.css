@@ -333,7 +333,8 @@ ul.sortNavlevels .iuDetails.selected,
 #popup3 h1,
 .inLinePopupMain>h1,
 .popCont h1.lcs_popContHeader {
-	background: linear-gradient(to bottom, #43444a0, #282a32100%)!important
+	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important;
+	color: #c05800!important
 }
 
 .CourseCreationContentRight {
@@ -579,7 +580,9 @@ label.p1 {
 }
 .rubric_splitButton label,
 .rubric_splitButton a.r_splitArrow,
-.btn.btn_primary {
+.btn.btn_primary,
+.inLinePopupMain .btn, .inLinePopupMain .btn_small_primary, .inLinePopupMain .btn.btn_primary.btn_small_primary,
+.btn.btn_secondary {
 	background: linear-gradient(to bottom, rgb(255, 137, 36) 0, rgb(192, 88, 0) 100%);
 	border: 1px solid #e77121;
 }
@@ -610,4 +613,11 @@ ul.sortNavlevels li a:hover {
 	border: 1px solid #707277;
 	color: #fff!important;
 	text-shadow: 2px 1px 0 #4996cd!important
+}
+.lc_popBoxyContent, .dm-popupmiddle, .lc_loginTermsAndCondDv {
+	background-color: #434653
+}
+.popCont h1 a.close, #popupClose, #popupClose2, #popupClose3, #popupClose4, #popupClose5, .popupInlineClose, .popCont a.close, .popCont a.closeBtn {
+	/* filter: invert(110%)!important; */
+	  filter: invert(1) brightness(60%) sepia(20%) saturate(900%);
 }
