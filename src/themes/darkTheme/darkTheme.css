@@ -12,6 +12,8 @@ body,
 .lcs_userProfileSection h2 a.lcs_profileSectionLink.open {
 	background: #34363e!important
 }
+.whit-bg h3,
+.light-gray-pop,
 .lc_colViolet.showToolTip .lc_contTitleLbl,
 .lc_colViolet.showToolTip .lc_classCode,
 .lc_colBlue.showToolTip .lc_contTitleLbl,
@@ -666,4 +668,11 @@ ul.sortNavlevels li a:hover {
 .createCourseTable.styleTable .tableSubHeader td:hover,
 .tableSubHeader:hover {
     background: #434653 !important;
+}
+#inprogressLoaderPath {
+    filter: invert(75%) !important;
+}
+.whit-bg,
+.boxy-wrapper {
+    background: #50535e !important;
 }
