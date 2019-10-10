@@ -5,3 +5,6 @@ output.mp4
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
 /.vs/LoudCloud-Enhanced-Extension2/v15/.suo
+.vs/LoudCloud-Enhanced-Extension/config/applicationhost.config
+src.crx
+src.pem
