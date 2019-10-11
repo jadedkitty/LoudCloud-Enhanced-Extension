@@ -676,3 +676,9 @@ ul.sortNavlevels li a:hover {
 .boxy-wrapper {
     background: #50535e !important;
 }
+.boxy-wrapper .question {
+	background-color: #4e515c;
+}
+.boxy-wrapper .answers {
+	background-color: #434653!important;
+}
