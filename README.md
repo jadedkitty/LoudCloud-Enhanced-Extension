@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/wiki/logo.png">
+  <img width="335" height="91"src="https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/wiki/logo.png">
 </p>
 
 # LoudCloud Enhanced Extension for Google Chrome
