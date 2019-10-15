@@ -1,4 +1,6 @@
-![logo](https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/logo.png)
+<p align="center">
+  <img src="https://github.com/jadedkitty/LoudCloud-Enhanced-Extension/blob/master/wiki/logo.png">
+</p>
 
 # LoudCloud Enhanced Extension for Google Chrome
 This extension is for BNED LoudCloud v7.1 which adds an easy-to-read dark mode feature as well as user friendly addtions such as an integrated chat feature to chat with other online users of the extension.
