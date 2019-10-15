@@ -23,7 +23,7 @@ function addFooter() {
 	footer.className = 'buildVersion';
 	footer.id = 'enhancedFooter';
 	document.getElementsByClassName( 'footerMast' )[ 0 ].appendChild( footer );
-	document.getElementById( 'enhancedFooter' ).textContent = 'LoudCloud Enhanced by jadedkitty  [Ver: 1.1]';
+	document.getElementById( 'enhancedFooter' ).textContent = 'LoudCloud Enhanced by jadedkitty  [Ver: 1.1.1]';
 	var github = document.createElement( 'a' );
 	github.id = 'githubLink';
 	document.getElementsByClassName( 'footerMast' )[ 0 ].appendChild( github );
