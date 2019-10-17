@@ -25,7 +25,7 @@ Gource is a visualization tool for git repos. You can see the latest gource for 
 
 # Disclaimer:
 ## This extension is in no way affiliated or sponsored by Barnes and Noble Education, BNED LoudCloud LLC, Grand Canyon University, Grand Canyon Education, inc., or any schools, organizations, or companies related to the development and/or use of the BNED LoudCloud learning management system.
-Users who utilize this extension accept that it is done so at their own risk, caution is reccommended.  
+This extension is provided "AS IS". Users who utilize this extension accept that it is done so at their own risk, caution is recommended.
 We (the developers of the extension) are not responsible for errors in assignments, maulfunctioning quizzes, thermonuclear war, or you getting dropped from your class because your class wall post didn't go through.  
 Please do some research or examine the code if you have any concerns about features included in the extension before installing it!  
 YOU are choosing to use this extension, and if you point the finger at us for messing up your class, we will laugh at you. 
