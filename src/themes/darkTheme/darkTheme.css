@@ -271,9 +271,6 @@ ul.sortNavlevels .iuDetails.selected,
 	margin-left: 2px!important;
 	margin-right: 2px!important
 }
-.lc_logoBrdr {
-	margin: 11px 5px 0 16px !important
-}
 .dark-green-circle .circular-loader-inner {
 	background: #34363eb8 none
 }
@@ -681,4 +678,7 @@ ul.sortNavlevels li a:hover {
 }
 .boxy-wrapper .answers {
 	background-color: #434653!important;
+}
+.lc_logoBrdr {
+    margin: 0px 5px 0 16px !important;
 }
