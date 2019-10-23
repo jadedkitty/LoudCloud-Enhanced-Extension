@@ -141,10 +141,16 @@ ul.plannerItemsList li p,
 	transition: .25s ease-in-out
 }
 #logoImg:hover {
-	background: url(../logos/whiteGCULogo.png) no-repeat
+	background: url(https://newportal.gcu.edu/Content/images/logo.png) no-repeat;
+	background: url(../logos/whiteGCULogo.png) no-repeat;
+	height: 56px;
+    width: 190px
 }
 .lc_navIcons {
 	filter: saturate(0%)
+}
+.header {
+	background: none!important;
 }
 a,
 .subtitlePop span,
@@ -345,7 +351,7 @@ ul.sortNavlevels .iuDetails.selected,
 	color: #c05800!important
 }
 
-.CourseCreationContentRight {
+/*.CourseCreationContentRight {
 	overflow: hidden!important;
 	z-index: 5
 }
@@ -353,6 +359,7 @@ ul.sortNavlevels .iuDetails.selected,
 .posFixed {
 	position: relative!important
 }
+*/
 .dm-svrepotInner,
 .dm-svrepotInner .midltblhed table tr:nth-child(even) {
 	background-color: #34363e!important
@@ -442,7 +449,7 @@ ul.chartViewOptions li a span.role_arrow {
 
 .textField5 {
 	border: none;
-	padding: 4px
+	/*padding: 4px*/
 }
 
 .lcs_userProfileSection h2 {
@@ -459,8 +466,8 @@ ul.chartViewOptions li a span.role_arrow {
 
 .bufferBox .bufferBoxInr {
 	background: url(../../images/1568045196802/buffer_bg.png) repeat-y scroll right top #34363e!important;
-	display: inline-block;
-	height: 16px
+	/*display: inline-block;
+	height: 16px*/
 }
 input.textField,
 input[type="text"],
@@ -477,7 +484,7 @@ input[type="text"] {
 }
 
 .sectionContainer .previewDetails p {
-	margin-bottom: 13px
+	/*margin-bottom: 13px*/
 }
 
 .lcs_studentScoreBoxSection {
@@ -570,7 +577,7 @@ label.p1 {
 }
 
 .borderDiv {
-	margin-bottom: 34363px
+	/*margin-bottom: 34363px*/
 }
 
 .dataTabl1 td {
@@ -679,6 +686,10 @@ ul.sortNavlevels li a:hover {
 .boxy-wrapper .answers {
 	background-color: #434653!important;
 }
-.lc_logoBrdr {
-    margin: 0px 5px 0 16px !important;
+.logo {
+    height: 56px;
+    width: 190px
 }
+/*.lc_logoBrdr {
+    margin: 0px 5px 0 16px !important;
+}*/
