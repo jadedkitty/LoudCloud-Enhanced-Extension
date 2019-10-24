@@ -325,9 +325,6 @@ ul.sortNavlevels .iuDetails.selected,
 	background-position: -8px -131px!important
 }
 
-.dataTabl1 tr.selected {
-	background: #868ca5!important
-}
 .tchSupportHead,
 .inLinePopupMain {
 	background: #34363e none!important
@@ -693,3 +690,16 @@ ul.sortNavlevels li a:hover {
 /*.lc_logoBrdr {
     margin: 0px 5px 0 16px !important;
 }*/
+.dataTabl1 tr:hover {
+    background: #393b44;
+}
+.acordianBx .acrdBxdesing ul li:hover {
+    background-color: #34363e
+}
+tr.lastRow td, tr.lastRow th {
+    border-bottom: 1px solid #b9c7d2;
+    border-top: 1px solid;
+}
+.dataTabl1 tr.selected {
+    background: #34363e!important;
+}
