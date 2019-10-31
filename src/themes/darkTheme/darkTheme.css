@@ -83,8 +83,8 @@ ul.plannerItemsList li p,
 .lc_colGrey.showToolTip .lc_classCode,
 .classScheduleContainer .pagination span,
 #selectedNavTitle,
-.selfSubTlt {
-	color: #fff!important
+.selfSubTlt, .popUpPlanner.notificationDescPopup p {
+	color: #fff!important;
 }
 .lc_header,
 .lc_navigation,
@@ -345,7 +345,7 @@ ul.sortNavlevels .iuDetails.selected,
 .inLinePopupMain>h1,
 .popCont h1.lcs_popContHeader {
 	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important;
-	color: #c05800!important
+	color: #e77121!important
 }
 
 /*.CourseCreationContentRight {
@@ -713,3 +713,29 @@ ul.sortNavlevels li .iuDetails:hover {
 .header .dropdown2 dd ul li a:hover, .header .dropdown dd ul li a:hover {
 	background-color: #434653!important;
 }
+.detailed_header .class_date {
+	color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 8px 12px 5px;
+    text-shadow: none;
+}
+.detailed_header .class_name {
+	color: #fff;
+    display: block;
+    font-size: 11px;
+    text-shadow: none;
+    font-weight: normal;
+}
+.popupInsideCont .textContent {
+	background-color: #434653;
+}
+.popCont .ctalogButtnRow {
+	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important;
+	border-top: 0px!important
+}
+.boxy-wrapper .bottom-left, .boxy-wrapper .bottom-right{
+	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important
