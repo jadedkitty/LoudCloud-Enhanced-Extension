@@ -706,3 +706,9 @@ tr.lastRow td, tr.lastRow th {
  .sortNavCriteria.sortArrowDown.selected {
 	background-color: #34363e!important;
 }
+ul.sortNavlevels li .iuDetails:hover {
+	background-color: #434653!important;
+}
+.header .dropdown2 dd ul li a:hover, .header .dropdown dd ul li a:hover {
+	background-color: #434653!important;
+}
