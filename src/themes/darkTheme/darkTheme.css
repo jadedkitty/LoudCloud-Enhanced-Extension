@@ -703,3 +703,6 @@ tr.lastRow td, tr.lastRow th {
 .dataTabl1 tr.selected {
     background: #34363e!important;
 }
+ .sortNavCriteria.sortArrowDown.selected {
+	background-color: #34363e!important;
+}
