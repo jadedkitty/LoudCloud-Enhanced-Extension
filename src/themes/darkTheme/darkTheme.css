@@ -687,9 +687,10 @@ ul.sortNavlevels li a:hover {
     height: 56px;
     width: 190px
 }
-/*.lc_logoBrdr {
+.lc_logoBrdr {
     margin: 0px 5px 0 16px !important;
-}*/
+	border-color: #434653!important;
+}
 .dataTabl1 tr:hover {
     background: #393b44;
 }
