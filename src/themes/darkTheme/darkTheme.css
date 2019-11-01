@@ -662,9 +662,19 @@ ul.sortNavlevels li a:hover {
 	border: 1px solid #707277;
 	text-shadow: none
 }
-.btn.btn_primary,
-.btn, .boxy-wrapper .answers input[type=button] {
-    text-shadow: none !important;
+.btn.btn_primary, .btn, .boxy-wrapper .answers input[type=button], 
+.btn:hover, .boxy-wrapper .answers input[type=button]:hover {
+	background: linear-gradient(to bottom, rgb(255, 137, 36) 0, rgb(192, 88, 0) 100%);
+	border: 1px solid #e77121;
+	border-radius: 3px;
+    height: 30px!important;
+    font: 13px "Trebuchet MS"!important;
+    font-weight: bold!important;
+    color: #fff!important;
+    text-shadow: none!important;
+    min-width: 88px;
+    cursor: pointer;
+    text-transform: uppercase
 }
 .createCourseTable.styleTable .tableSubHeader td:hover,
 .tableSubHeader:hover {
