@@ -87,7 +87,8 @@ ul.plannerItemsList li p,
 p.dashboard-box-black .table_dashboard_wide th, 
 .dashboard-box-black .table_dashboard_wide p, span.noPlannerList, 
 .dashboard-box-black .table_dashboard_wide th, 
-.dashboard-box-black .table_dashboard_wide p {
+.dashboard-box-black .table_dashboard_wide p, .lcs_electronicResLabel,
+.sectionContainer p {
 	color: #fff!important;
 }
 .lc_header,
@@ -758,8 +759,33 @@ ul.sortNavlevels li .iuDetails:hover {
 .tipHover2 {
 	color: #fff;
 	background-color: #434653;
-	box-shadow: 2px 2px 2px 2px #707176/* #b3b8ce */;
+	box-shadow: 2px 2px 2px 2px #707176;
 }
 .tipHover2 .pointer-bottom2 {
 	background: url(../logos/accomodations_hover_arrow-darkThemeOrange.png) no-repeat;
+}
+.sortNavCriteria.sortArrowUp.selected {
+	background-color: #34363e!important;
+}
+.sortNavCriteria.selected, .sortNavCriteria.selected:hover {
+    border-left: 4px solid #e77121!important;
+    background-color: #34363e!important;
+    border-bottom: 1px solid #d5d3d3!important;
+    border-top: 1px solid #d5d3d3!important;
+    padding-left: 16px;
+}
+.sortNavCriteria:hover {
+    border-left-color: #fbfbfb;
+    background-color: #34363e;
+    border-bottom: 1px solid #d5d3d3!important;
+    border-top: 1px solid #d5d3d3!important;
+}
+ul.sortNavlevels .iuDetails.selected a, .iuDetails.sortArrowUp.selected a {
+    border-left-color: #e77121;
+}
+.sectionContainer .ul-list-tymncy {
+	color: #fff!important;
+}
+.ul-list-tymncy *, .tinyPreview * {
+    color: #fff!important;
 }
