@@ -83,7 +83,11 @@ ul.plannerItemsList li p,
 .lc_colGrey.showToolTip .lc_classCode,
 .classScheduleContainer .pagination span,
 #selectedNavTitle,
-.selfSubTlt, .popUpPlanner.notificationDescPopup p {
+.selfSubTlt, .popUpPlanner.notificationDescPopup,
+p.dashboard-box-black .table_dashboard_wide th, 
+.dashboard-box-black .table_dashboard_wide p, span.noPlannerList, 
+.dashboard-box-black .table_dashboard_wide th, 
+.dashboard-box-black .table_dashboard_wide p {
 	color: #fff!important;
 }
 .lc_header,
