@@ -739,3 +739,13 @@ ul.sortNavlevels li .iuDetails:hover {
 }
 .boxy-wrapper .bottom-left, .boxy-wrapper .bottom-right{
 	background: linear-gradient(to bottom, #43444a 0, #282a32 100%)!important
+}
+/*Accomodations Hover box*/
+.tipHover2 {
+	color: #fff;
+	background-color: #434653;
+	box-shadow: 2px 2px 2px 2px #707176/* #b3b8ce */;
+}
+.tipHover2 .pointer-bottom2 {
+	background: url(../logos/accomodations_hover_arrow-darkThemeOrange.png) no-repeat;
+}
