@@ -789,3 +789,7 @@ ul.sortNavlevels .iuDetails.selected a, .iuDetails.sortArrowUp.selected a {
 .ul-list-tymncy *, .tinyPreview * {
     color: #fff!important;
 }
+.treeview-red li,
+.treeview li {
+	filter: invert(75%)
+}
